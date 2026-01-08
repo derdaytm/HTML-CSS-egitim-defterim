@@ -82,6 +82,11 @@
 
 ---
 
+>**Not**
+> Fazla resim olması durumunda img tagı içine `loading="lazy"` ekleyerek sayfa açılırken değil resme yaklaşınca yüklenmesi sağlanabilir.
+> `decoding="async` varsayılan ayardır ve resmi arka planda hazırlar.
+> `decoding="sync` sayfa resmin yüklenmesini bekler.
+
 ### Resim Altı / Üstü Metin: `<figure>` ve `<figcaption>`
 
 - Resimlerin altına veya üstüne açıklama eklemek istiyorsak, `<figure>` etiketi içine resmi koymalıyız.  
@@ -151,16 +156,22 @@
 - `srcset` → Ekran boyutuna uygun resim dosyası
 - `<img src>` → Varsayılan resim (hiçbir `media` koşulu sağlanmazsa gösterilir)
 - `alt` → Erişilebilirlik ve SEO için açıklama
+- `type` → Formatı belirtmeyi sağlar
 
 #### Örnek Kullanım
 
 ```html
 <picture>
-  <source media="(max-width: 600px)" srcset="images/logo-small.png">
-  <source media="(max-width: 1200px)" srcset="images/logo-medium.png">
+  <source media="(max-width: 600px)" srcset="images/logo-small.png" type="image/webp">
+  <source media="(max-width: 1200px)" srcset="images/logo-medium.png" type="image/webp">
   <img src="images/logo-large.png" alt="Logo">
 </picture>
 ```
+---
+
+### Önemli Noktalar
+- `width` ve `height` tarayıcıya resmin orijinal boyutunu bildirir. Bu, layout shift (sayfa yüklenirken içerik kayması) sorununu önler ve aspect-ratio’yu korur.
+- Metinlere `alt` eklenmesi seo açısından önemlidir.
 
 ---
 
@@ -174,12 +185,13 @@
 - `rel="icon"` → Dosyanın favicon olduğunu belirtir
 - `type` → Dosya tipini belirtir (isteğe bağlı, önerilen yöntem)
 - `href` → Favicon dosyasının konumu ve adı
+- `sizes` → Boyut ayarlamayı sağlar
 
 #### Örnek Kullanım
 
 ```html
 <link rel="icon" href="favicon.ico">
-<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 ```
 
 > **Not**
