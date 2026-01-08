@@ -48,6 +48,7 @@ Videoları HTML sayfasına eklemek için kullanılır.
     _Örnek:_ 0:00-2:30 → Giriş, 2:30-5:00 → Ana bölüm
   - **metadata** → Videoya veya ses dosyasına bağlı ek bilgileri (meta veri) taşır, kullanıcıya gösterilmez.  
     _Örnek:_ Alt yazı senkronizasyon bilgisi veya ekstra veri dosyaları.
+  - default ile birden fazla altyazı olduğu durumlarda varsayılan ayarı seçmeyi sağlar.
 
 #### Gelişmiş Video Özellikleri
 - `crossorigin`
@@ -113,6 +114,16 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
     _Örnek:_ 0:00-2:30 → Giriş, 2:30-5:00 → Ana bölüm
   - **metadata** → Videoya veya ses dosyasına bağlı ek bilgileri (meta veri) taşır, kullanıcıya gösterilmez.  
     _Örnek:_ Alt yazı senkronizasyon bilgisi veya ekstra veri dosyaları.
+  - default ile birden fazla altyazı olduğu durumlarda varsayılan ayarı seçmeyi sağlar.
+
+#### Gelişmiş Video Özellikleri
+- `crossorigin`
+  - Eğer videoyu **CDN’den veya farklı bir kaynaktan** çekiyorsanız, `crossorigin` özelliği gerekli olabilir.
+  - Amaç: Tarayıcıların **CORS (Cross-Origin Resource Sharing)** politikaları nedeniyle video verisine erişim ve işlem yapılabilmesini sağlamak.
+
+- `playsinline`
+  - Mobil cihazlarda videonun **tam ekran yerine sayfa içinde** oynatılmasını sağlar.
+  - Önerilen kullanım, özellikle **iOS Safari** gibi tarayıcılarda otomatik oynatma ve kullanıcı deneyimi için önemlidir.
 
 #### Örnek Kullanım
 
