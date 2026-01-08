@@ -189,4 +189,4 @@
 ### 📚 Konu Akışı
 
 **⬅️ Önceki:** [**Metin ve Biçimlendirme**](02-metin-ve-bicimlendirme.md)   
-**➡️ Sonraki:** 
+**➡️ Sonraki:** [**Metin ve Biçimlendirme**](04-ses-ve-video-işlemleri.md)
