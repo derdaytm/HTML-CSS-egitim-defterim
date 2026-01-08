@@ -37,6 +37,26 @@ Videoları HTML sayfasına eklemek için kullanılır.
 - `width` → Videonun genişliğini belirler (piksel cinsinden)  
 - `height` → Videonun yüksekliğini belirler (piksel cinsinden)
 - `track` → Video için altyazı ekler
+- `kind` özniteliği, `<track>` ile eklenen içeriğin türünü belirtir. Desteklenen değerler ve açıklamaları:
+  - **subtitles** → Video veya sesin konuşmalarını farklı bir dilde altyazı olarak sağlar.  
+    _Örnek:_ Türkçe altyazı eklemek için kullanılır.
+  - **captions** → Video veya sesin konuşmalarını aynı dilde, işitme engelliler için metin olarak gösterir.  
+    _Örnek:_ İngilizce videoda İngilizce altyazı, işitme engelliler için.
+  - **descriptions** → Videodaki görsel öğeleri açıklayan metin ekler.  
+    _Örnek:_ Görsel anlatım eksikliği olan kullanıcılar için, sahne açıklamaları.
+  - **chapters** → Video bölümlerini tanımlamak için kullanılır; video oynatıcısında bölüm atlama gibi işlev sağlar.  
+    _Örnek:_ 0:00-2:30 → Giriş, 2:30-5:00 → Ana bölüm
+  - **metadata** → Videoya veya ses dosyasına bağlı ek bilgileri (meta veri) taşır, kullanıcıya gösterilmez.  
+    _Örnek:_ Alt yazı senkronizasyon bilgisi veya ekstra veri dosyaları.
+
+#### Gelişmiş Video Özellikleri
+- `crossorigin`
+  - Eğer videoyu **CDN’den veya farklı bir kaynaktan** çekiyorsanız, `crossorigin` özelliği gerekli olabilir.
+  - Amaç: Tarayıcıların **CORS (Cross-Origin Resource Sharing)** politikaları nedeniyle video verisine erişim ve işlem yapılabilmesini sağlamak.
+
+- `playsinline`
+  - Mobil cihazlarda videonun **tam ekran yerine sayfa içinde** oynatılmasını sağlar.
+  - Önerilen kullanım, özellikle **iOS Safari** gibi tarayıcılarda otomatik oynatma ve kullanıcı deneyimi için önemlidir.
 
 #### Örnek Kullanım
 
@@ -82,6 +102,17 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
   - `none` → indirmez  
   - `metadata` → sadece meta veriyi indirir  
   - `auto` → tamamen veya bir kısmını indirir
+- `kind` özniteliği, `<track>` ile eklenen içeriğin türünü belirtir. Desteklenen değerler ve açıklamaları:
+  - **subtitles** → Video veya sesin konuşmalarını farklı bir dilde altyazı olarak sağlar.  
+    _Örnek:_ Türkçe altyazı eklemek için kullanılır.
+  - **captions** → Video veya sesin konuşmalarını aynı dilde, işitme engelliler için metin olarak gösterir.  
+    _Örnek:_ İngilizce videoda İngilizce altyazı, işitme engelliler için.
+  - **descriptions** → Videodaki görsel öğeleri açıklayan metin ekler.  
+    _Örnek:_ Görsel anlatım eksikliği olan kullanıcılar için, sahne açıklamaları.
+  - **chapters** → Video bölümlerini tanımlamak için kullanılır; video oynatıcısında bölüm atlama gibi işlev sağlar.  
+    _Örnek:_ 0:00-2:30 → Giriş, 2:30-5:00 → Ana bölüm
+  - **metadata** → Videoya veya ses dosyasına bağlı ek bilgileri (meta veri) taşır, kullanıcıya gösterilmez.  
+    _Örnek:_ Alt yazı senkronizasyon bilgisi veya ekstra veri dosyaları.
 
 #### Örnek Kullanım
 
