@@ -1,6 +1,7 @@
 # 📖 Detaylı Dokümantasyon
 
-## [1. Javascript'e giriş](01-Javascript'e%20giriş/Temel%20kavramlar-anlatım.md)
-- Noktalı Virgül Kullanımı
+## HTML
+
+### [1.HTML Temelleri](HTML/01-HTML-temelleri.md)
 
 ---
