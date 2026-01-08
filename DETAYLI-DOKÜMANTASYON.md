@@ -2,6 +2,6 @@
 
 ## HTML
 
-### [1.HTML Temelleri](HTML/01-HTML-temelleri.md)
+### [1.HTML Temelleri](HTML/01-temel-bilgiler.md)
 
 ---
