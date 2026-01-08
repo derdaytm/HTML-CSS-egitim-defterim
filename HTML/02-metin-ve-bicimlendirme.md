@@ -351,4 +351,4 @@ function hello() {
 ### 📚 Konu Akışı
 
 **⬅️ Önceki:** [**Temel Bilgiler**](01-temel-bilgiler.md)  
-**➡️ Sonraki:** 
+**➡️ Sonraki:** [**Görseller ve Resim İşlemleri**](03-görseller-ve-resim-işlemleri.md)  
