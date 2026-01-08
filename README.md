@@ -13,7 +13,9 @@
 - HTML
   - [Temel Bilgiler](/HTML/01-temel-bilgiler.md)
   - [Metin ve Biçimlendirme](/HTML/02-metin-ve-bicimlendirme.md)
-  - [Görseller ve Resim işlemleri](/HTML/03-görseller-ve-resim-işlemleri.md)
+  - [Görseller ve Resim İşlemleri](/HTML/03-görseller-ve-resim-işlemleri.md)
+  - [Ses ve Video İşlemleri](/HTML/04-ses-ve-video-işlemleri.md)
+  - [Tablo ve Liste İşlemleri](/HTML/05-tablo-ve-liste-işlemleri.md)
 
 Daha detaylı içerik için [DETAYLI DOKÜMANTASYON](DETAYLI-DOKÜMANTASYON.md
 ) dosyasına bakabilirsiniz.
