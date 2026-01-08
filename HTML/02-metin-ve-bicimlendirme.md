@@ -76,7 +76,7 @@ kelimesi uygun yerden bölünebilir.
 - `<u>` → Metnin altını çizer. *(Semantik değil)*
 - `<ins>` → Sonradan eklenen metni belirtir, altı çizilir. *(Semantik)*
 - `<del>` → Metnin üzerini çizer. *(Semantik)*
-- `<mark>` → Metni fosforlu kalemle işaretlenmiş gibi gösterir. *(Semantik)*
+- `<mark>` → Metni fosforlu kalemle işaretlenmiş gibi gösterir. Vurgulama amaçlı kullanılır. *(Semantik)*
 - `<small>` → Daha küçük yazı gösterir. *(Semantik değil)*
 - `<hr />` → Satır çizgisi çeker. *(Semantik)*
 
