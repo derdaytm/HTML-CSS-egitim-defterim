@@ -1,4 +1,4 @@
-# HTML
+## HTML
 
 - **HTML (Hyper Text Markup Language)**; web sayfalarının yapısını oluşturan bir işaretleme dilidir.
 - HTML; *tag / element / etiket* olarak adlandırılan yapılardan oluşur.
