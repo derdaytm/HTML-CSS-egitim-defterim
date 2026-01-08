@@ -109,7 +109,8 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
 ### Önemli Noktalar
 
 - **Her zaman birden fazla format ekleyin:**  
-  `<source>` kullanımı kritik, tarayıcı uyumluluğunu artırır.
+  `<source>` kullanımı kritik, tarayıcı uyumluluğunu artırır. <br>
+  Desteklenmemesi durumuna karşı metin ekleyin.
 
 - **Poster** sadece `<video>` etiketi için geçerlidir; videodan önce gösterilecek resmi belirtir.
 
