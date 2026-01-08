@@ -184,4 +184,4 @@ HTML sayfasına medya veya eklenti tabanlı içerik gömmek için kullanılır.
 ### 📚 Konu Akışı
 
 **⬅️ Önceki:** [**Görseller ve Resim İşlemleri**](03-görseller-ve-resim-işlemleri.md)   
-**➡️ Sonraki:** [****]()
+**➡️ Sonraki:** [**Tablo ve Liste İşlemleri**](05-tablo-ve-liste-işlemleri.md)
