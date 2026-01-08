@@ -51,7 +51,7 @@ Videoları HTML sayfasına eklemek için kullanılır.
   - default ile birden fazla altyazı olduğu durumlarda varsayılan ayarı seçmeyi sağlar.
 
 #### Gelişmiş Video Özellikleri
-- `crossorigin`
+- `crossorigin = "anonymous"`
   - Eğer videoyu **CDN’den veya farklı bir kaynaktan** çekiyorsanız, `crossorigin` özelliği gerekli olabilir.
   - Amaç: Tarayıcıların **CORS (Cross-Origin Resource Sharing)** politikaları nedeniyle video verisine erişim ve işlem yapılabilmesini sağlamak.
 
@@ -117,7 +117,7 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
   - default ile birden fazla altyazı olduğu durumlarda varsayılan ayarı seçmeyi sağlar.
 
 #### Gelişmiş Video Özellikleri
-- `crossorigin`
+- `crossorigin = "anonymous"`
   - Eğer videoyu **CDN’den veya farklı bir kaynaktan** çekiyorsanız, `crossorigin` özelliği gerekli olabilir.
   - Amaç: Tarayıcıların **CORS (Cross-Origin Resource Sharing)** politikaları nedeniyle video verisine erişim ve işlem yapılabilmesini sağlamak.
 
