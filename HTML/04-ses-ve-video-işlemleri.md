@@ -36,6 +36,7 @@ Videoları HTML sayfasına eklemek için kullanılır.
 - `poster` → Video yüklenmeden önce gösterilecek görsel
 - `width` → Videonun genişliğini belirler (piksel cinsinden)  
 - `height` → Videonun yüksekliğini belirler (piksel cinsinden)
+- `track` → Video için altyazı ekler
 
 #### Örnek Kullanım
 
@@ -52,6 +53,7 @@ Videoları HTML sayfasına eklemek için kullanılır.
     poster="video-poster.jpg">
   <source src="video.mp4" type="video/mp4">
   <source src="video.webm" type="video/webm">
+  <track src="altyazi-tr.vtt" kind="subtitles" srclang="tr" label="Türkçe">
   Tarayıcınız video etiketini desteklemiyor.
 </video>
 ```
@@ -75,6 +77,7 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
 - `loop` → Sesin sürekli oynatılmasını sağlar  
 - `muted` → Ses başlangıçta kapalı olur  
 - `type` → Ses dosyasının türünü belirtir (örn. `audio/mpeg`, `audio/ogg`)
+- `track` → Ses için altyazı ekler
 - `preload` → Tarayıcı sayfa yüklenirken sesin ne kadarını önceden indirir:
   - `none` → indirmez  
   - `metadata` → sadece meta veriyi indirir  
@@ -92,6 +95,7 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
     preload="auto">
   <source src="audio.mp3" type="audio/mpeg">
   <source src="audio.ogg" type="audio/ogg">
+  <track src="altyazi-tr.vtt" kind="subtitles" srclang="tr" label="Türkçe">
   Tarayıcınız audio etiketini desteklemiyor.
 </audio>
 ```
