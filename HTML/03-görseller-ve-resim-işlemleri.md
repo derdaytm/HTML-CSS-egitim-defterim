@@ -16,6 +16,8 @@
 
 ### `<img>` Etiketi Özellikleri
 - `src` → Resmin dosya yolu
+- `srcset` → Ekran boyutuna uygun resim dosyası<br>
+  - Örnek : srcset="images/logo-small.png 600w, images/logo-medium.png 1200w"
 - `alt` → Resim yüklenmezse gösterilecek açıklama
   - Erişilebilirlik (accessibility) ve SEO için zorunlu kabul edilir.
 - `title` → Resmin üzerine gelindiğinde görünen açıklama (isteğe bağlı)
@@ -172,6 +174,11 @@
 ### Önemli Noktalar
 - `width` ve `height` tarayıcıya resmin orijinal boyutunu bildirir. Bu, layout shift (sayfa yüklenirken içerik kayması) sorununu önler ve aspect-ratio’yu korur.
 - Metinlere `alt` eklenmesi seo açısından önemlidir.
+- `crossorigin = "anonymous`: CDN veya farklı kaynaklardan yüklenen resimler için CORS problemi yaşamamak adına `img` ile beraber kullanılır.
+- `referrerpolicy` tarayıcının sunucuya hangi bilgiyi göndereceğini ayarlar.
+  - `no-referrer` → Hiçbir referer bilgisi gönderilmez.
+  - `origin` → Sadece sayfanın kök URL'sini gönderir, tam sayfa URL'sini değil.
+  - `no-referrer-when-downgrade` → HTTP'den HTTPS'ye geçişte referer göndermez, aksi halde gönderir. (*Varsayılan Davranış*)
 
 ---
 
