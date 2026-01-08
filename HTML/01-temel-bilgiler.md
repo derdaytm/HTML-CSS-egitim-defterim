@@ -56,7 +56,6 @@
 
 ---
 
-## Bir Sonraki Konu
-
-[➡️ **Metin ve Biçimlendirme**](02-metin-ve-bicimlendirme.md)  
-HTML ile metinlerin nasıl yapılandırıldığı, vurgulandığı ve anlamsal olarak işaretlendiği etiketler ele alınacaktır.
+### 📚 Konu Akışı
+ 
+**➡️ Sonraki:** [**Metin ve Biçimlendirme**](02-metin-ve-bicimlendirme.md)   
