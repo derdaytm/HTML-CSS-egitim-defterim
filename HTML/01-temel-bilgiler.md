@@ -53,3 +53,10 @@
   - Sadece **küçük harf** kullanılmalıdır
   - **Türkçe karakter** kullanılmamalıdır
   - Boşluk yerine `-` tercih edilmelidir (`_` kullanılabilir ancak `-` daha yaygındır)
+
+---
+
+## Bir Sonraki Konu
+
+[➡️ **Metin ve Biçimlendirme**](02-metin-ve-bicimlendirme.md)  
+HTML ile metinlerin nasıl yapılandırıldığı, vurgulandığı ve anlamsal olarak işaretlendiği etiketler ele alınacaktır.
