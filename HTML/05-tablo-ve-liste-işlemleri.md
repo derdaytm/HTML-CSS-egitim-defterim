@@ -105,6 +105,8 @@
 
 <img width="777" height="320" alt="image" src="https://github.com/user-attachments/assets/bb8efb72-39b5-44c3-8294-4508adff040a" />
 
+---
+
 ## Liste İşlemleri
 
 - `<ol>` → Numaralı liste oluşturmak için kullanılır.
