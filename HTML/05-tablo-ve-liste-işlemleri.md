@@ -194,4 +194,4 @@
 ### 📚 Konu Akışı
 
 **⬅️ Önceki:** [**Ses ve Video İşlemleri**](04-ses-ve-video-işlemleri.md)   
-**➡️ Sonraki:** [**Tablo ve Liste İşlemleri**]()
+**➡️ Sonraki:** [**Link İşlemleri**](06-link-işlemleri.md)
