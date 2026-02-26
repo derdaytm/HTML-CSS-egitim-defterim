@@ -33,7 +33,7 @@
 - Görseller ve Resim İşlemleri
 - Temel Resim Kullanımı
 - `<img>` Etiketi Özellikleri
-- Örnek Kullanım
+- `srcset` Kullanımı
 - Boyutlandırma
 - Saydamlık (Opacity)
 - Resim ve Metin Yerleşimi
