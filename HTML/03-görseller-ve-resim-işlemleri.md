@@ -28,10 +28,10 @@
 
 ---
 
-### `srcset`
+### `srcset` Özelliği
 
 - `srcset` → Tarayıcıya **aynı görselin farklı boyutlarını sunar**.
-- Amaç → Cihaza göre **en uygun resmi yüklemek** (performans + hız).
+- Amaç → Cihaza göre **en uygun resmi yüklemektir.** (performans + hız)
 
 #### Mantık
 
@@ -49,9 +49,9 @@
 
 #### Açıklama
 
-- `small.png 600w` → 600px genişliğinde resim. 
-- `big.png 1200w` → 1200px genişliğinde resim.
-- `w` → width. (genişlik)
+- `small.png 600w` → 600px genişliğinde resim
+- `big.png 1200w` → 1200px genişliğinde resim
+- `w` → width (genişlik)
 
 #### Nasıl Çalışır?
 
@@ -63,11 +63,6 @@
 
 - Resmin ekranda ne kadar yer kaplayacağını söyler.  
 - Tarayıcı buna göre doğru resmi seçer.  
-
-#### Senaryo
-
-- Küçük ekran → küçük resim yüklenir.  
-- Büyük ekran → büyük resim yüklenir.  
 
 #### `sizes` ile Birlikte Kullanım
 
@@ -121,13 +116,13 @@
 ```html
 <p>
   <img src="images/logo.png" alt="Logo" style="float: right;">
-  Bu paragraf, resmin sağ tarafında yer alacak şekilde hizalanmıştır. 
+  Bu paragraf, resmin sol tarafında yer alacak şekilde hizalanmıştır. 
   Float kullanarak resim metinle birlikte düzgün bir şekilde konumlandırılmıştır.
 </p>
 
 <p>
   <img src="images/logo.png" alt="Logo" style="float: left;">
-  Bu paragraf ise resmin sol tarafında yer alacak şekilde hizalanmıştır. 
+  Bu paragraf ise resmin sağ tarafında yer alacak şekilde hizalanmıştır. 
   Margin ile resim ve metin arasında boşluk bırakılmıştır.
 </p>
 ```
@@ -139,9 +134,11 @@
 ---
 
 >**Not**
-> Fazla resim olması durumunda img tagı içine `loading="lazy"` ekleyerek sayfa açılırken değil resme yaklaşınca yüklenmesi sağlanabilir.
-> `decoding="async` varsayılan ayardır ve resmi arka planda hazırlar.
-> `decoding="sync` sayfa resmin yüklenmesini bekler.
+>
+> Çok sayıda resim varsa `loading="lazy"` kullanarak resim sayfa açılır açılmaz değil, kullanıcı resme yaklaşınca yüklenmesi sağlanır. Varsayılan: loading="eager" (resim hemen yüklenir)
+>
+> `decoding="async"` varsayılan ayardır ve resmi arka planda hazırlar resim olmasa bile sayfa gösterilir.
+> `decoding="sync"` sayfayı açmak için resmin yüklenmesini bekler.
 
 ### Resim Altı / Üstü Metin: `<figure>` ve `<figcaption>`
 
@@ -159,7 +156,7 @@
 </figure>
 
 <figure>
-  <figcaption>Bu resim sitesinin ana logosudur.</figcaption>
+  <figcaption>Bu resim sitenin ana logosudur.</figcaption>
   <img src="images/logo.png" alt="Logo" width="150">
 </figure>
 ```
@@ -202,21 +199,21 @@
 
 ### Boyutlara Göre Resim Ekleme (`<picture>`)
 
+> **NOT**
+>
+> `srcset` ile aralarındaki fark biri aynı resmi farklı boyutlarda göstermeyi sağlarken biri farklı resim için kullanılır.
+
 - Farklı ekran boyutlarına göre farklı resimler göstermek için **`<picture>`** etiketi kullanılır.  
 - `<source>` ile medya sorgusu ve farklı resim kaynakları belirlenir.  
 - `<img>` etiketi, `<picture>` içinde varsayılan resmi gösterir.
 
 #### Açıklamalar
 
-- `media` → Hangi ekran boyutunda hangi resmi göstereceğimizi belirtir
-- `srcset` → Ekran boyutuna uygun resim dosyası<br>
-  - `sizes` srcset ile birlikte kullanılır ve hangi boyuttaki resmi tarayıcının kullanacağını belirtir.
-  - Örnek : <br>
-              &nbsp;          srcset="images/logo-small.png 600w, images/logo-medium.png 1200w" <br>
-             &nbsp;    sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
-- `<img src>` → Varsayılan resim (hiçbir `media` koşulu sağlanmazsa gösterilir)
-- `alt` → Erişilebilirlik ve SEO için açıklama
-- `type` → Formatı belirtmeyi sağlar
+- `media` → Hangi ekran boyutunda hangi resmi göstereceğimizi belirtir.
+- `srcset` → Ekran boyutuna uygun resim dosyası.<br>
+- `<img src>` → Varsayılan resim. (hiçbir `media` koşulu sağlanmazsa gösterilir)
+- `alt` → Erişilebilirlik ve SEO için açıklama.
+- `type` → Formatı belirtmeyi sağlar.
 
 #### Örnek Kullanım
 
@@ -233,7 +230,7 @@
 - `width` ve `height` tarayıcıya resmin orijinal boyutunu bildirir. Bu, layout shift (sayfa yüklenirken içerik kayması) sorununu önler ve aspect-ratio’yu korur.
   - `style="aspect-ratio: 4/3"` görselin en boy oranını sabit tutmayı sağlar.  
 - Metinlere `alt` eklenmesi seo açısından önemlidir.
-- `crossorigin = "anonymous`: CDN veya farklı kaynaklardan yüklenen resimler için CORS problemi yaşamamak adına `img` ile beraber kullanılır.
+- `crossorigin = "anonymous"`: CDN veya farklı kaynaklardan yüklenen resimler için CORS problemi yaşamamak adına `img` ile beraber kullanılır.
 - `referrerpolicy` tarayıcının sunucuya hangi bilgiyi göndereceğini ayarlar.
   - `no-referrer` → Hiçbir referer bilgisi gönderilmez.
   - `origin` → Sadece sayfanın kök URL'sini gönderir, tam sayfa URL'sini değil.
@@ -248,10 +245,10 @@
 
 #### Açıklamalar
 
-- `rel="icon"` → Dosyanın favicon olduğunu belirtir
-- `type` → Dosya tipini belirtir (isteğe bağlı, önerilen yöntem)
-- `href` → Favicon dosyasının konumu ve adı
-- `sizes` → Boyut ayarlamayı sağlar
+- `rel="icon"` → Dosyanın favicon olduğunu belirtir.
+- `type` → Dosya tipini belirtir. (isteğe bağlı, önerilen yöntem)
+- `href` → Favicon dosyasının konumu ve adı.
+- `sizes` → Boyut ayarlamayı sağlar.
 
 #### Örnek Kullanım
 
