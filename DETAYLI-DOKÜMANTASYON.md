@@ -32,31 +32,31 @@
 ### [3.Görseller ve Resim İşlemleri](/HTML/03-görseller-ve-resim-işlemleri.md)
 - Görseller ve Resim İşlemleri
 - Temel Resim Kullanımı
-- <img> Etiketi Özellikleri
+- `<img>` Etiketi Özellikleri
 - Örnek Kullanım
 - Boyutlandırma
 - Saydamlık (Opacity)
 - Resim ve Metin Yerleşimi
-- Resim Altı / Üstü Metin: <figure> ve <figcaption>
+- Resim Altı / Üstü Metin: `<figure>` ve `<figcaption>`
 - Resme Tıklama Alanı Oluşturma (Image Maps)
-- Boyutlara Göre Resim Ekleme (<picture>)
+- Boyutlara Göre Resim Ekleme (`<picture>`)
 - Önemli Noktalar
 - Favicon
 
 ### [4.Ses ve Video İşlemleri](/HTML/04-ses-ve-video-işlemleri.md)
 - Video ve Ses İşlemleri
 - Desteklenen Video Formatları
-- <video> Etiketi
+- `<video>` Etiketi
 - Video Özellikleri
 - Gelişmiş Video Özellikleri
 - Örnek Kullanım (<video>)
-- <audio> Etiketi
-- <audio> Etiketi Özellikleri
+- `<audio>` Etiketi
+- `<audio>` Etiketi Özellikleri
 - Gelişmiş Ses Özellikleri
 - Örnek Kullanım (<audio>)
 - Önemli Noktalar
-- Eski / Alternatif Medya Etiketleri: <object> ve <embed>
-- <object> Etiketi
-- <embed> Etiketi
-- <object> ve <embed> Farkları
+- Eski / Alternatif Medya Etiketleri: `<object>` ve `<embed>`
+- `<object>` Etiketi
+- `<embed>` Etiketi
+- `<object>` ve `<embed>` Farkları
 ---
