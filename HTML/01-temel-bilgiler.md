@@ -1,7 +1,7 @@
 ## HTML
 
 - **HTML (Hyper Text Markup Language)**; web sayfalarının yapısını oluşturan bir işaretleme dilidir.
-- HTML; *tag / element / etiket* olarak adlandırılan yapılardan oluşur.
+- **HTML** *tag / element / etiket* olarak adlandırılan yapılardan oluşur.
 - Etiketler `< >` arasına yazılır. Genellikle **açılış** ve **kapanış** etiketi şeklindedir.  
   Kapanış etiketlerinde başa `/` işareti gelir.
 - HTML dosyalarının uzantısı **`.html`** veya **`.htm`**’dir.
@@ -24,6 +24,8 @@
 ### Hosting ve Sunucu Bilgisi
 
 - Bir sitenin yayınlanabilmesi için **domain** ve **hosting** gereklidir.
+  - **Domain (Alan Adı)**: Kullanıcıların sitenize ulaşmak için tarayıcıya yazdığı isimdir. Genellikle yıllık kiralama usulüyle çalışır.
+  - **Hosting (Barındırma)**: Sitenizin resim, içerik, veritabanı ve kod dosyalarının saklandığı, internete bağlı sunucu hizmetidir. Aylık veya yıllık abonelikle çalışır.
 
 ---
 
@@ -41,18 +43,18 @@
 
 - Kullanıcılar her koşulda en azından **içeriği okuyabilmelidir**.
 - Bu amaçla **Chris Champion’ın “Progressive Enhancement”** yaklaşımı benimsenir:
-  1. Önce **HTML** ile içerik oluşturulur
-  2. Ardından **CSS** ile stil eklenir
-  3. Son olarak **JavaScript** ve üçüncü parti eklentiler kullanılır
+  1. Önce **HTML** ile içerik oluşturulur.
+  2. Ardından **CSS** ile stil eklenir.
+  3. Son olarak **JavaScript** ve üçüncü parti eklentiler kullanılır.
 
 ---
 
 ### Dosya İsimlendirme
 
 - Dosya adlarında:
-  - Sadece **küçük harf** kullanılmalıdır
-  - **Türkçe karakter** kullanılmamalıdır
-  - Boşluk yerine `-` tercih edilmelidir (`_` kullanılabilir ancak `-` daha yaygındır)
+  - Sadece **küçük harf** kullanılmalıdır.
+  - **Türkçe karakter** kullanılmamalıdır.
+  - Boşluk yerine `-` tercih edilmelidir. (`_` kullanılabilir ancak `-` daha yaygındır)
 
 ---
 
