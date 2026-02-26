@@ -15,12 +15,15 @@
 ---
 
 ### `<img>` Etiketi Özellikleri
-- `src` → Resmin dosya yolu
-- `srcset` → Ekran boyutuna uygun resim dosyası<br>
-  - `sizes` srcset ile birlikte kullanılır ve hangi boyuttaki resmi tarayıcının kullanacağını belirtir.
+- `src` → Resmin dosya yolu.
+- `srcset` → Ekran boyutuna uygun resim dosyası.<br>
+  - `sizes` → `srcset` ile birlikte kullanılır ve hangi boyuttaki resmi tarayıcının kullanacağını belirtir.
   - Örnek : <br>
-              &nbsp;          srcset="images/logo-small.png 600w, images/logo-medium.png 1200w" <br>
-             &nbsp;    sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              ```
+              srcset="images/logo-small.png 600w, images/logo-medium.png 1200w"
+             sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
+               ```
+    
 - `alt` → Resim yüklenmezse gösterilecek açıklama
   - Erişilebilirlik (accessibility) ve SEO için zorunlu kabul edilir.
 - `title` → Resmin üzerine gelindiğinde görünen açıklama (isteğe bağlı)
