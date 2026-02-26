@@ -1,10 +1,10 @@
 ## Görseller ve Resim İşlemleri
 
 ### Temel Resim Kullanımı
-- Resimleri, mümkün olduğunda **HTML dosyasıyla aynı klasörde** veya mantıklı bir klasör yapısı içinde (`images/` gibi) tutmak önerilir.
+- Resimleri, mümkün olduğunda **HTML dosyasıyla aynı klasörde** veya mantıklı bir klasör yapısı içinde (`/images` gibi) tutmak önerilir.
 - Resim eklemek için `<img>` etiketi kullanılır. <br>
 &nbsp; Temel yapı :
-          ```html
+          ```
           <img src="dosya-konumu/dosya-adı.uzantı" alt="Açıklama" title="Resim Başlığı" />
           ```
 > **Not:**  
