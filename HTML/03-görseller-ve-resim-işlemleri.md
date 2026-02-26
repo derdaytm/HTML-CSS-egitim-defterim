@@ -15,14 +15,7 @@
 ---
 
 ### `<img>` Etiketi Özellikleri
-- `src` → Resmin dosya yolu.
-- `srcset` → Ekran boyutuna uygun resim dosyası.<br>
-  - `sizes` → `srcset` ile birlikte kullanılır ve hangi boyuttaki resmi tarayıcının kullanacağını belirtir.
-  - Örnek : <br>
-  
-              srcset="images/logo-small.png 600w, images/logo-medium.png 1200w"
-              sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" 
-    
+- `src` → Resmin dosya yolu.    
 - `alt` → Resim yüklenmezse gösterilecek açıklama
   - Erişilebilirlik (accessibility) ve SEO için zorunlu kabul edilir.
 - `title` → Resmin üzerine gelindiğinde görünen açıklama (isteğe bağlı)
@@ -32,6 +25,62 @@
 ```html
 <img src="images/logo.png" alt="Site logosu" title="Ana sayfa logosu" />
 ```
+
+---
+
+### `srcset`
+
+- `srcset` → Tarayıcıya **aynı görselin farklı boyutlarını sunar**.
+- Amaç → Cihaza göre **en uygun resmi yüklemek** (performans + hız).
+
+#### Mantık
+
+- Sen farklı boyutlarda resimler verirsin.
+- Tarayıcı, ekran boyutuna göre **en uygun olanı seçer**.
+
+### Temel Kullanım
+
+```
+<img 
+  src="small.png"
+  srcset="small.png 600w, medium.png 900w, big.png 1200w"
+>
+```
+
+#### Açıklama
+
+- `small.png 600w` → 600px genişliğinde resim. 
+- `big.png 1200w` → 1200px genişliğinde resim.
+- `w` → width. (genişlik)
+
+#### Nasıl Çalışır?
+
+- Tarayıcı ekranı kontrol eder.  
+- En uygun genişliğe sahip resmi seçer. 
+- Gereksiz büyük resmi yüklemez.  
+
+#### `sizes` Ne Yapar?
+
+- Resmin ekranda ne kadar yer kaplayacağını söyler.  
+- Tarayıcı buna göre doğru resmi seçer.  
+
+#### Senaryo
+
+- Küçük ekran → küçük resim yüklenir.  
+- Büyük ekran → büyük resim yüklenir.  
+
+#### `sizes` ile Birlikte Kullanım
+
+> **NOT**
+> `src` özelliğini birlikte kullanmamızın sebebi, `srcset` desteklenmeyen eski tarayıcılarda en azından bir görselin gösterilmesini sağlamaktır. (fallback görevi görür)
+
+```html
+<img 
+  src="small.png"
+  srcset="small.png 600w, medium.png 900w, big.png 1200w"
+  sizes="(max-width: 600px) 100vw, (max-width: 900px) 70vw, 50vw"
+>
+````
 
 ---
 
