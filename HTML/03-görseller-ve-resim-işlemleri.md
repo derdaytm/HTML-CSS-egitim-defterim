@@ -20,7 +20,7 @@
   - `sizes` → `srcset` ile birlikte kullanılır ve hangi boyuttaki resmi tarayıcının kullanacağını belirtir.
   - Örnek : <br>
               ```
-              srcset="images/logo-small.png 600w, images/logo-medium.png 1200w"
+              srcset="images/logo-small.png 600w, images/logo-medium.png 1200w" <br>
              sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
                ```
     
