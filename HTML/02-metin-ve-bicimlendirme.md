@@ -1,8 +1,8 @@
 ## Metin Özellikleri
 
 > **Not:**  
-> **Semantik** → Anlam taşıyan, SEO ve erişilebilirliği destekleyen etiketler  
-> **Semantik değil** → Yalnızca görsel amaçlı kullanılan etiketler
+> **Semantik** → Anlam taşıyan, SEO ve erişilebilirliği destekleyen etiketler.  
+> **Semantik değil** → Yalnızca görsel amaçlı kullanılan etiketler.
 
 ---
 
@@ -40,10 +40,10 @@ kelimesi uygun yerden bölünebilir.
 ### Başlıklar
 
 - `<h1>` – `<h6>` → Başlık etiketleridir.  
-  - Sayılar 1’den 6’ya kadar gider  
-  - Hiyerarşik yapıdadır  
-  - `h1` en büyük başlıktır *(Semantik)
-  - `h6` en küçük başlıktır *(Semantik)
+  - Sayılar 1’den 6’ya kadar gider.  
+  - Hiyerarşik yapıdadır.  
+  - `h1` en büyük başlıktır. (Semantik)
+  - `h6` en küçük başlıktır. (Semantik)
 - `<hgroup>` → Başlıkları gruplamak için kullanılır. *(Semantik - Nadiren kullanılır)*
 
 #### Örnek Kullanım
@@ -250,8 +250,8 @@ function hello() {
 ### Zaman ve Dil Odaklı Etiketler
 
 - `<time>` → Tarih ve saat bilgisini semantik olarak belirtmek için kullanılır. *(Semantik)*  
-  - Makine tarafından okunabilir zaman verisi sağlar  
-  - SEO ve erişilebilirliği destekler
+  - Makine tarafından okunabilir zaman verisi sağlar.  
+  - SEO ve erişilebilirliği destekler.
 
 #### Örnek Kullanım
 
@@ -274,7 +274,7 @@ function hello() {
 - `<bdi>` → Metin yönünü çevresinden izole eder.  
   - Çok dilli ve dinamik içeriklerde kullanılır. *(Semantik)*
 - `<bdo>` → Metnin yazım yönünü zorla belirler (`ltr`, `rtl`). *(Semantik)*  
-  - Sağdan sola yazılan diller için kullanılır
+  - Sağdan sola yazılan diller için kullanılır.
  
 #### Örnek Kullanım
 
@@ -296,8 +296,8 @@ function hello() {
 ### Özel Dil Yapıları
 
 - `<ruby>` → Doğu Asya dillerinde (Japonca, Çince vb.) telaffuz açıklamaları için kullanılır. *(Semantik)*  
-  - `<rt>` ve `<rp>` etiketleriyle birlikte kullanılır
-  - Çoğu projede gerekmez, özel durumlara yöneliktir
+  - `<rt>` ve `<rp>` etiketleriyle birlikte kullanılır.
+  - Çoğu projede gerekmez, özel durumlara yöneliktir.
  
 #### Örnek Kullanım
 
@@ -321,8 +321,8 @@ function hello() {
 ### Kullanımı Kaldırılan Etiket
 
 - `<font>` → Metin biçimlendirmek için kullanılırdı.  
-  - HTML5 ile **kaldırılmıştır**
-  - Yerine **CSS** kullanılmalıdır
+  - HTML5 ile **kaldırılmıştır**.
+  - Yerine **CSS** kullanılmalıdır.
 
 ### `<font>` ve CSS Karşılaştırması
 
