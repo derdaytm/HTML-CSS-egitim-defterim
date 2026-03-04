@@ -497,3 +497,10 @@
 - **Ondalıklı sayı**
   - Regex: `^[0-9]+(\.[0-9]+)?$`
   - Açıklama: Tam sayı veya ondalıklı sayı kabul eder.
+
+---
+
+### 📚 Konu Akışı
+
+**⬅️ Önceki:** [**Link İşlemleri**](06-link-işlemleri.md)   
+**➡️ Sonraki:** [**Sayfa Yapısı**](08-sayfa-yapisi.md)
