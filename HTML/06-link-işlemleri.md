@@ -1,5 +1,9 @@
 ## Link İşlemleri
 
+> **NOT**
+>
+> Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
+
 - `<a>` → Bağlantı (link) oluşturmak için kullanılır. Anchor kelimesinden gelir.
   - `<a>` etiketi içine eklenen metin, görsel veya herhangi bir öğe tıklanabilir olur.
   - `href` alanına zip / rar gibi dosyalar yazılırsa, tarayıcı indirme işlemi başlatır.
@@ -106,6 +110,10 @@
 ---
 
 ## Iframe (Sayfa İçinde Sayfa) İşlemleri
+
+> **NOT**
+>
+> Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
 
 - `<iframe>` → Bir web sayfasının **içinde başka bir web sayfası** açmak için kullanılır.
 - Genellikle harici içerik (harita, video, dokümantasyon, başka sayfa) göstermek için tercih edilir.
