@@ -1,23 +1,26 @@
 ## Tablo İşlemleri
 
+> **NOT**
+>
+> Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
+
 - `<table>` → Tablo oluşturmak için ana etikettir.  
   - `caption` → Tablo başlığı ekler, `<table>` etiketinin hemen altına yazılır. (*Semantik olarak avantajlıdır*)
-  - `width` → Tablo genişliğini belirler (modern projelerde CSS ile verilmesi önerilir).  
-  - `border` → Tablo kenarlık kalınlığı (CSS kullanımı önerilir).  
-  - `border-spacing` → Hücreler arası boşluğu belirler (CSS ile daha yaygın).  
+  - `width` → Tablo genişliğini belirler. (modern projelerde CSS ile verilmesi önerilir).  
+  - `border` → Tablo kenarlık kalınlığı. (CSS kullanımı önerilir).  
   - `cellspacing` → Hücreler arası boşluğu HTML attribute ile belirler.
 - `<colgroup>` → Tablo sütunlarını gruplamak için kullanılır.
 - `<col>` → Tek tek sütunlar üzerinde stil ve genişlik vermek için kullanılır.  
 - `<tr>` → Tablo satırı oluşturur.  
 - `<td>` → Tablo hücresi oluşturur.  
-  - `headers` → Bu hücrenin hangi `<th>` ile ilişkili olduğunu belirtir (karmaşık tablolar için).  
+  - `headers` → Bu hücrenin hangi `<th>` ile ilişkili olduğunu belirtir. (karmaşık tablolar için).  
 - `<th>` → Tablo başlık hücresi oluşturur.  
-  - `scope` → Başlık hücresinin kapsamını belirtir (`col`, `row`).  
+  - `scope` → Başlık hücresinin kapsamını belirtir. (`col`, `row`).  
 - `<thead>` → Tablo başlık bölümünü tanımlar.  
 - `<tbody>` → Tablo veri bölümünü tanımlar.  
 - `<tfoot>` → Tablo alt bölümünü tanımlar.  
-- `colspan` → Satırdaki hücreleri birleştirir (`<td>` veya `<th>` içinde kullanılır).  
-- `rowspan` → Sütundaki hücreleri birleştirir (`<td>` veya `<th>` içinde kullanılır).  
+- `colspan` → Satırdaki hücreleri birleştirir. (`<td>` veya `<th>` içinde kullanılır).  
+- `rowspan` → Sütundaki hücreleri birleştirir. (`<td>` veya `<th>` içinde kullanılır).  
 
 ### Erişilebilirlik (ARIA) Etiketleri
 
@@ -62,9 +65,9 @@
 
   <tbody>
     <tr>
-      <td rowspan="2">1</td>
-      <td>Ahmet</td>
-      <td>Yılmaz</td>
+      <td rowspan="2" headers="ID">1</td>
+      <td headers="Ad">Ahmet</td>
+      <td headers="Soyad">Yılmaz</td>
       <td>İK</td>
       <td>Uzman</td>
     </tr>
@@ -113,19 +116,19 @@
   - `start="x"` → Listenin hangi sayıdan başlayacağını belirler.
   - `reversed="reversed"` → Listenin artan yerine azalan şekilde sıralanmasını sağlar.
   - `type="x"` → Liste işaretlerini değiştirir:
-    - `A` → Büyük harflerle sıralar
-    - `a` → Küçük harflerle sıralar
-    - `I` → Roma rakamıyla sıralar
-    - `i` → Küçük Roma rakamıyla sıralar
-    - `1` → Sayısal (varsayılan)
+    - `A` → Büyük harflerle sıralar.
+    - `a` → Küçük harflerle sıralar.
+    - `I` → Roma rakamıyla sıralar.
+    - `i` → Küçük Roma rakamıyla sıralar.
+    - `1` → Sayısal. (varsayılan)
 - `<ul>` → Numarasız liste oluşturmak için kullanılır. Menü veya normal listelerde kullanılır.
-  - `type="x"` → Marker (işaret) tipini değiştirir (HTML5 ile bazı tipler tarayıcıya bağlıdır, CSS ile değiştirmek daha yaygın):
-    - `disc` → Dolu daire (varsayılan)
-    - `circle` → Boş daire
-    - `square` → Dolu kare
-    - `none` → İşaret kaldırılır
+  - `type="x"` → Marker (işaret) tipini değiştirir. (HTML5 ile bazı tipler tarayıcıya bağlıdır, CSS ile değiştirmek daha yaygın):
+    - `disc` → Dolu daire. (varsayılan)
+    - `circle` → Boş daire.
+    - `square` → Dolu kare.
+    - `none` → İşaret kaldırılır.
 > **Not**:
-> `<ul>` için `default` `list-style-type` CSS ile de değiştirilebilir; özel marker kullanımı CSS ile daha esnektir.
+> `<ul>` için `list-style-type` kullanarak CSS ile de değiştirilebilir; özel marker kullanımı CSS ile daha esnektir.
 - `<li>` → Liste elemanlarını gösterir.
   - `value="x"` → Tek tek `<ol>` elemanının numarasını değiştirmek için kullanılır.
 
