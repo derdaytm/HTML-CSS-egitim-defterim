@@ -1,5 +1,5 @@
 ---
 ### 📚 Konu Akışı
 
-**⬅️ Önceki:** [**Seçici İşlemleri**](/CSS/02-seçici-işlemleri.md)  
-**➡️ Sonraki:** [**Kutu Modeli**](/CSS/04-kutu-modeli.md)
+**⬅️ Önceki:** [**Seçici İşlemleri**](02-seçici-işlemleri.md)  
+**➡️ Sonraki:** [**Kutu Modeli**](04-kutu-modeli.md)
