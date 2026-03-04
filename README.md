@@ -21,7 +21,7 @@
   - [Sayfa Yapısı](/HTML/08-sayfa-yapisi.md)
   - [Meta Etiketleri ve Kapsamlı Örnek](/HTML/09-meta-etiketleri-ve-kapsamlı-örnek.md)
 
-Daha detaylı içerik için [DETAYLI DOKÜMANTASYON](DETAYLI-DOKÜMANTASYON.md
+Daha detaylı içerik için [DETAYLI DOKÜMANTASYON](HTML-DETAYLI-DOKÜMANTASYON.md
 ) dosyasına bakabilirsiniz.
 
 <hr style="border: none; height: 1px; background: #ecf0f1; margin: 2em 0;" />
