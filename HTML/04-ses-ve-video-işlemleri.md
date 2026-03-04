@@ -23,20 +23,22 @@ Videoları HTML sayfasına eklemek için kullanılır.
 
 #### Video Özellikleri
 
-- `src` → Video dosyasının yolu (alternatif olarak `<source>` kullanılması önerilir)  
-- `<source>` → Alternatif format belirtmek için kullanılır  
-- `controls` → Oynatma, durdurma, ses aç/kapat düğmelerini gösterir  
-- `autoplay` → Sayfa açıldığında videonun otomatik oynatılmasını sağlar  
-- `loop` → Videonun sürekli oynatılmasını sağlar  
-- `muted` → Videonun sesi kısık başlar  
+- `src` → Video dosyasının yolu. (alternatif olarak `<source>` kullanılması önerilir)  
+- `<source>` → Alternatif format belirtmek için kullanılır.  
+- `controls` → Oynatma, durdurma, ses aç/kapat düğmelerini gösterir.
+- `autoplay` → Sayfa açıldığında videonun otomatik oynatılmasını sağlar.  
+- `loop` → Videonun sürekli oynatılmasını sağlar.  
+- `muted` → Videonun sesi kısık başlar. 
 - `preload` → Tarayıcı sayfa yüklenirken videonun ne kadarını önceden yükleyeceğini belirler:
-  - `none` → indirmez  
-  - `metadata` → sadece meta veriyi indirir  
-  - `auto` → tamamen veya bir kısmını indirir  
-- `poster` → Video yüklenmeden önce gösterilecek görsel
-- `width` → Videonun genişliğini belirler (piksel cinsinden)  
-- `height` → Videonun yüksekliğini belirler (piksel cinsinden)
-- `track` → Video için altyazı ekler
+  - `none` → indirmez.  
+  - `metadata` → sadece meta veriyi indirir.  
+  - `auto` → tamamen veya bir kısmını indirir.  
+- `poster` → Video yüklenmeden önce gösterilecek görsel.
+- `width` → Videonun genişliğini belirler. (piksel cinsinden)  
+- `height` → Videonun yüksekliğini belirler. (piksel cinsinden)
+- `track` → Video için altyazı ekler.
+  - `srclang` → Altyazı dilini belirtir.
+  - `label` → Kullanıcıya gösterilecek altyazı adını belirtir.
 - `kind` özniteliği, `<track>` ile eklenen içeriğin türünü belirtir. Desteklenen değerler ve açıklamaları:
   - **subtitles** → Video veya sesin konuşmalarını farklı bir dilde altyazı olarak sağlar.  
     _Örnek:_ Türkçe altyazı eklemek için kullanılır.
@@ -63,7 +65,7 @@ Videoları HTML sayfasına eklemek için kullanılır.
 
 ```html
 <video 
-    src="video.mp4"  // Önerilmeyen kullanım
+    src="video.mp4"
     width="640" 
     height="360" 
     controls 
@@ -91,18 +93,18 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
 
 #### `<audio>` Etiketi Özellikleri
 
-- `src` → Ses dosyasının yolu (alternatif olarak `<source>` kullanılması önerilir)  
-- `<source>` → Alternatif format belirtmek için kullanılır  
-- `controls` → Oynatma, durdurma, ses aç/kapat düğmelerini gösterir  
-- `autoplay` → Sayfa açıldığında sesin otomatik oynatılmasını sağlar  
-- `loop` → Sesin sürekli oynatılmasını sağlar  
-- `muted` → Ses başlangıçta kapalı olur  
-- `type` → Ses dosyasının türünü belirtir (örn. `audio/mpeg`, `audio/ogg`)
-- `track` → Ses için altyazı ekler
+- `src` → Ses dosyasının yolu. (alternatif olarak `<source>` kullanılması önerilir)  
+- `<source>` → Alternatif format belirtmek için kullanılır.  
+- `controls` → Oynatma, durdurma, ses aç/kapat düğmelerini gösterir. 
+- `autoplay` → Sayfa açıldığında sesin otomatik oynatılmasını sağlar.  
+- `loop` → Sesin sürekli oynatılmasını sağlar.  
+- `muted` → Ses başlangıçta kapalı olur.  
+- `type` → Ses dosyasının türünü belirtir. (örn. `audio/mpeg`, `audio/ogg`)
 - `preload` → Tarayıcı sayfa yüklenirken sesin ne kadarını önceden indirir:
-  - `none` → indirmez  
-  - `metadata` → sadece meta veriyi indirir  
-  - `auto` → tamamen veya bir kısmını indirir
+  - `none` → indirmez.  
+  - `metadata` → sadece meta veriyi indirir.  
+  - `auto` → tamamen veya bir kısmını indirir.
+- `track` → Ses için altyazı ekler.
 - `kind` özniteliği, `<track>` ile eklenen içeriğin türünü belirtir. Desteklenen değerler ve açıklamaları:
   - **subtitles** → Video veya sesin konuşmalarını farklı bir dilde altyazı olarak sağlar.  
     _Örnek:_ Türkçe altyazı eklemek için kullanılır.
@@ -171,7 +173,7 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
 
 ### `<object>` Etiketi
 - HTML sayfasına PDF, Flash veya diğer medya türlerini eklemek için kullanılır.
-- İçerik yüklenmezse **alternatif içerik** gösterilebilir (semantik ve erişilebilir).
+- İçerik yüklenmezse **alternatif içerik** gösterilebilir. (semantik ve erişilebilir).
 - **Özellikler:**
   - `data` → İçeriğin kaynağı
   - `type` → İçeriğin MIME türü
