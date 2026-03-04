@@ -133,7 +133,7 @@
 
 ---
 
-### Buton türleri
+### `button` türleri
 
 `<input type="button">` özelliğiyle birlikte kullanılır.
 
@@ -143,14 +143,14 @@
 
 ---
 
-### type="search" (Arama Alanı)
+### `type="search"` (Arama Alanı)
 
 - `type="search"` → Arama motoru mantığında çalışan input alanıdır.
 - Kullanıcı arama yapıyormuş hissi verir.
 - Tarayıcıya göre temizleme (❌) butonu gösterebilir.
 - `datalist` ile birlikte kullanıldığında **öneri listesi** sunar.
 
-### list + datalist Kullanımı
+### `list + datalist` Kullanımı
 
 - `list` → Input’un hangi `datalist` ile eşleşeceğini belirtir.
 - `datalist` → Öneri listesini tutan etikettir.
