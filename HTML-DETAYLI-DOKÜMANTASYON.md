@@ -12,8 +12,6 @@
 - Progressive Enhancement
 - Dosya İsimlendirme
 
----
-
 ## [2.Metin ve Biçimlendirme](/HTML/02-metin-ve-bicimlendirme.md)
 - Metin Özellikleri
 - Satır ve Paragraf
@@ -28,9 +26,7 @@
 - Metin Yönü ve Çok Dilli İçerik
 - Özel Dil Yapıları
 - Kullanımı Kaldırılan Etiket
-
----
-
+  
 ## [3.Görseller ve Resim İşlemleri](/HTML/03-görseller-ve-resim-işlemleri.md)
 - Görseller ve Resim İşlemleri
 - Temel Resim Kullanımı
@@ -44,8 +40,6 @@
 - Boyutlara Göre Resim Ekleme (`<picture>`)
 - Önemli Noktalar
 - Favicon
-
----
 
 ## [4.Ses ve Video İşlemleri](/HTML/04-ses-ve-video-işlemleri.md)
 - Video ve Ses İşlemleri
