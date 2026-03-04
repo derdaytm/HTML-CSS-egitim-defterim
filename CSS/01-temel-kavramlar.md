@@ -2,4 +2,4 @@
 ---
 ### 📚 Konu Akışı
 
-**➡️ Sonraki:** [**Seçici İşlemleri**](/CSS/02-seçici-işlemleri.md)
+**➡️ Sonraki:** [**Seçici İşlemleri**](02-seçici-işlemleri.md)
