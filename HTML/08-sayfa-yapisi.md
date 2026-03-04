@@ -1,4 +1,4 @@
-## Semantik ve Yapısal HTML Etiketleri
+## Yapısal HTML Etiketleri
 
 > **NOT:**
 >
