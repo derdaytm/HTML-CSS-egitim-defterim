@@ -58,7 +58,25 @@
 
 ---
 
-Bazı elementler :
+## Temel Yapı 
+
+```html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Temel Sayfa</title>
+</head>
+<body>
+  <h1>Merhaba Dünya</h1>
+  <p>Bu, temel HTML yapısının basit bir örneğidir.</p>
+</body>
+</html>
+```
+
+---
+
+## Bazı elementler :
 
 ### Bazı HTML Element ve Attribute’ları
 
