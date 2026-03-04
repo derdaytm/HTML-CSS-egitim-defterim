@@ -58,6 +58,29 @@
 
 ---
 
+Bazı elementler :
+
+### Bazı HTML Element ve Attribute’ları
+
+- `name="username"` → Form verilerini tanımlamak için elemente isim verir; sadece form gönderiminde kullanılır.  
+- `id="header"` → Elementi benzersiz şekilde tanımlar; CSS veya JavaScript ile erişmek için kullanılır.  
+- `// Yorum` → Tek satırlık yorum yazmak için kullanılır (genellikle JS veya programlama dillerinde).  
+- `<!-- Yorum -->` → HTML’de çok satırlı veya tek satırlık yorum yapmak için kullanılır.  
+- `<html lang="tr">` → Sayfanın başlangıcı; dil belirtmek için `lang` kullanılır; sonunda `</html>` ile kapatılır.  
+  - `<!DOCTYPE html>` → Sayfanın HTML5 ile yazıldığını belirtir; `<html>`’den önce gelir.  
+- `<head>` → Sayfa başlığı, meta bilgiler ve script/link gibi başlık bilgilerini içerir.  
+- `<body>` → Ziyaretçiye gösterilen içerik burada yer alır.  
+- `<title>` → Tarayıcı sekmesinde görünen sayfa başlığını belirtir.  
+- `tabindex="1"` → Elementin tab sırasını belirler; sayfa içinde tab ile gezinmeyi kontrol eder.  
+- `accesskey="h"` → Klavye kısayolu atar; örneğin `h` tuşu ile element seçilebilir.  
+- `style="color: red; font-size: 16px;"` → Inline CSS uygulanmasını sağlar; elementin stilini belirler.  
+
+> **NOT:**
+>
+> Bu element ve attribute’lar HTML’in temel yapı taşlarıdır. İleride kullanımlarını anlayacağız.
+
+---
+
 ### 📚 Konu Akışı
  
 **➡️ Sonraki:** [**Metin ve Biçimlendirme**](02-metin-ve-bicimlendirme.md)   
