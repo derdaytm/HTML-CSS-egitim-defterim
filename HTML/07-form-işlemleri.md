@@ -17,9 +17,9 @@
 - `action="x"` → Form verilerinin gönderileceği sayfayı belirtir.
   - `mail.php` → Veriler sunucu tarafına gönderilir ve backend tarafında işlenir.
   - `mailto:mail@example.com` → Veriler kullanıcının e-posta uygulaması ile mail olarak gönderilir.
-    - Bu kullanımda `enctype="text/plain"` eklenmelidir.
+    - Bu kullanımda `enctype="text/plain"` eklenmelidir. En çok kullanılan `enctype` tipleri :
 - `method="x"` → Verilerin gönderilme yöntemini belirler.
-  - `get` → Veriler URL üzerinden gider (gizli değildir, (512kb) sınırlıdır).
+  - `get` → Veriler URL üzerinden gider. (gizli değildir, (512kb) sınırlıdır).
   - `post` → Veriler gizli gider, boyut sınırı yoktur. (varsayılan)
 
 > Varsayılan method **POST** kabul edilir.
@@ -68,19 +68,19 @@
 #### `<input>` Türleri
 
 -`type = "x"` → Form elemanının tipini belirler.
-- `text` → Tek satırlı metin girişi
-- `password` → Girilen karakterleri gizler
-- `email` → E-posta adresi girişi (format kontrolü yapar)
-- `url` → Web adresi girişi (URL formatını kontrol eder)
-- `tel` → Telefon numarası girişi
-- `number` → Sayısal değer girişi (`max` ve `min` ile sınırlama yapılabilir)
-- `range` → Kaydırmalı çubuk ile sayı seçimi (`max` ve `min` ile sınırlama yapılabilir) (`output` kullanarak sağ tarafında çıktı gösterilebilir)
-- `date` → Tarih seçimi (`max="1979-12-31"` gibi `max` ve `min` değeri girilebilir)
-- `time` → Saat seçimi
-- `datetime-local` → Tarih ve saat birlikte
-- `month` → Ay ve yıl seçimi
-- `week` → Yıl içindeki hafta seçimi
-- `color` → Renk seçici açar (`Output` kullanarak sağ tarafında çıktı ile renk kodu gösterilebilir)
+- `text` → Tek satırlı metin girişi.
+- `password` → Girilen karakterleri gizler.
+- `email` → E-posta adresi girişi. (format kontrolü yapar)
+- `url` → Web adresi girişi. (URL formatını kontrol eder)
+- `tel` → Telefon numarası girişi.
+- `number` → Sayısal değer girişi. (`max` ve `min` ile sınırlama yapılabilir)
+- `range` → Kaydırmalı çubuk ile sayı seçimi. (`max` ve `min` ile sınırlama yapılabilir) (`output` kullanarak sağ tarafında çıktı gösterilebilir)
+- `date` → Tarih seçimi. (`max="1979-12-31"` gibi `max` ve `min` değeri girilebilir)
+- `time` → Saat seçimi.
+- `datetime-local` → Tarih ve saat birlikte.
+- `month` → Ay ve yıl seçimi.
+- `week` → Yıl içindeki hafta seçimi.
+- `color` → Renk seçici açar. (`Output` kullanarak sağ tarafında çıktı ile renk kodu gösterilebilir)
 
 ---
 
@@ -228,7 +228,7 @@
 
 ---
 
-### <output>
+### `<output>`
 
 - Hesaplanan veya üretilen sonucu göstermek için kullanılır.
 - Genellikle number, range gibi inputlarla birlikte kullanılır.
