@@ -101,7 +101,7 @@
 
 ---
 
-### accept (Dosya Türü Kısıtlama)
+### `accept` (Dosya Türü Kısıtlama)
 
 `<input type="file">` özelliğiyle kullanılır.
 `accept` özelliği, **yüklenebilecek dosya türlerini sınırlandırmak** için kullanılır.
@@ -133,7 +133,7 @@
 
 ---
 
-#### Buton türleri
+### Buton türleri
 
 `<input type="button">` özelliğiyle birlikte kullanılır.
 
