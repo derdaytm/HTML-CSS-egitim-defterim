@@ -1,6 +1,6 @@
 # 📖 Detaylı Dokümantasyon
 
-### [1.HTML Temelleri](HTML/01-temel-bilgiler.md)
+## [1.HTML Temelleri](HTML/01-temel-bilgiler.md)
 - HTML Nedir?
 - HTML Etiketleri ve Yapısı
 - Dosya Uzantıları (.html / .htm)
