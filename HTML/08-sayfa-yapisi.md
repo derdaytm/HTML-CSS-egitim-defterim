@@ -55,3 +55,4 @@
 ### 📚 Konu Akışı
 
 **⬅️ Önceki:** [**Form İşlemleri**](07-form-işlemleri.md)   
+**➡️ Sonraki:** [**Temel Yapı ve Meta Etiketleri**](09-temel-yapi-ve-meta-etiketi.md)
