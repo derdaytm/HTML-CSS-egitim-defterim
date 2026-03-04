@@ -21,6 +21,9 @@
   - [Sayfa Yapısı](/HTML/08-sayfa-yapisi.md)
   - [Meta Etiketleri ve Kapsamlı Örnek](/HTML/09-meta-etiketleri-ve-kapsamlı-örnek.md)
 
+> Daha detaylı içerik için [DETAYLI DOKÜMANTASYON](HTML-DETAYLI-DOKÜMANTASYON.md
+) dosyasına bakabilirsiniz.
+
 - CSS
   - [Temel Bilgiler](/CSS/01-temel-kavramlar.md)
   - [Seçici İşlemleri](/CSS/02-seçici-işlemleri.md)
@@ -29,7 +32,7 @@
   - [Tablo ve Menü Tasarımı](/CSS/05-tablo-ve-menü-tasarımı.md)
   - [Sayfa Düzeni](/CSS/06-sayfa-düzeni.md)
 
-Daha detaylı içerik için [DETAYLI DOKÜMANTASYON](HTML-DETAYLI-DOKÜMANTASYON.md
+> Daha detaylı içerik için [DETAYLI DOKÜMANTASYON](CSS-DETAYLI-DOKÜMANTASYON.md
 ) dosyasına bakabilirsiniz.
 
 <hr style="border: none; height: 1px; background: #ecf0f1; margin: 2em 0;" />
