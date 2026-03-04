@@ -21,6 +21,10 @@ HTML5, temel olarak **mp4, webm ve ogg** formatlarını destekler.
 
 Videoları HTML sayfasına eklemek için kullanılır.
 
+> **NOT**
+>
+> Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
+
 #### Video Özellikleri
 
 - `src` → Video dosyasının yolu. (alternatif olarak `<source>` kullanılması önerilir)  
@@ -90,6 +94,10 @@ Videoları HTML sayfasına eklemek için kullanılır.
 ### `<audio>` Etiketi
 
 Ses dosyalarını HTML sayfasına eklemek için kullanılır.
+
+> **NOT**
+>
+> Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
 
 #### `<audio>` Etiketi Özellikleri
 
