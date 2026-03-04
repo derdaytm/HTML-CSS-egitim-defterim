@@ -179,7 +179,7 @@
 
 ---
 
-### <textarea>
+### `<textarea>`
 
 - Çok satırlı metin girişi sağlar.
 
@@ -208,12 +208,12 @@
 - multiple → Çoklu seçim
 - size="x" → Görünen seçenek sayısı
 
-### `<option>`
+#### `<option>`
 
 - Seçenekleri belirtir.
 - `selected` → Varsayılan seçili
 
-### `<optgroup>`
+#### `<optgroup>`
 
 - Seçenekleri gruplar.
 - `label="x"` → Grup adı
