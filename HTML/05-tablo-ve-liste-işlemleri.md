@@ -112,6 +112,10 @@
 
 ## Liste İşlemleri
 
+> **NOT**
+>
+> Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
+
 - `<ol>` → Numaralı liste oluşturmak için kullanılır.
   - `start="x"` → Listenin hangi sayıdan başlayacağını belirler.
   - `reversed="reversed"` → Listenin artan yerine azalan şekilde sıralanmasını sağlar.
