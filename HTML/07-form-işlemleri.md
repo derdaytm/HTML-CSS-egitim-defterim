@@ -150,7 +150,7 @@
 - Tarayıcıya göre temizleme (❌) butonu gösterebilir.
 - `datalist` ile birlikte kullanıldığında **öneri listesi** sunar.
 
-### `list + datalist` Kullanımı
+#### `list + datalist` Kullanımı
 
 - `list` → Input’un hangi `datalist` ile eşleşeceğini belirtir.
 - `datalist` → Öneri listesini tutan etikettir.
