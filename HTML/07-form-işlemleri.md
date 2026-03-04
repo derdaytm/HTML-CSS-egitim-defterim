@@ -26,7 +26,7 @@
 
 ---
 
-### `enctype` Kullanımı
+### `enctype`
 
 - Form verilerinin hangi formatta gönderileceğini belirler.
 - `application/x-www-form-urlencoded` → Varsayılan gönderim türü. Sadece metin içeren formlar için uygundur.
