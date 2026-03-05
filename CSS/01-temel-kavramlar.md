@@ -92,7 +92,7 @@ p {
 
 ---
 
-## çoklu CSS Tema Kullanımı ve Default Tema Belirleme
+## Çoklu CSS Tema Kullanımı ve Default Tema Belirleme
 - Eğer bir web sayfasında birden fazla CSS teması varsa, hangi temanın varsayılan (default) olarak yükleneceğini meta etiketi ile belirleyebiliriz.
 Örnek Kullanım :
 ```html
