@@ -121,8 +121,8 @@
       }
       ```
 
-    ### 3. Class ile CSS Uygulamak
-    - Class için `.` işareti kullanılır ve HTML tagında `class="isim"` eklenir.   
+  ### 3. Class ile CSS Uygulamak
+  - Class için `.` işareti kullanılır ve HTML tagında `class="isim"` eklenir.   
     Örnek Kullanım :
       - HTML : `<div class="kutu">...</div>`
       - CSS :
