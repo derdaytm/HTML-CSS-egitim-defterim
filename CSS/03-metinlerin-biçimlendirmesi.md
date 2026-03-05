@@ -444,7 +444,9 @@ ul.features {
 
 ### Tarayıcı ve Ekran Uyumluluğu
 - **Normalize ve Reset**
-  - `normalize.css` ve `reset.css` dosyaları, farklı tarayıcıların **varsayılan stil farklılıklarını sıfırlar veya standartlaştırır**.
+  - `normalize.css` → Normalize CSS, farklı tarayıcıların aynı HTML elementini farklı göstermesini engelleyen bir CSS dosyasıdır.
+        Yani elementlerin varsayılan stillerini tamamen silmez, sadece tarayıcılar arasındaki farkları eşitler.
+  - `reset.css` → Reset, tüm HTML elementlerinin varsayılan stillerini sıfırlar (resetler). Yani margin, padding gibi değerler             tamamen kaldırılır. Böylece tasarıma sıfırdan başlanır.
   - Böylece web sayfası **tüm tarayıcılarda aynı** görünür.
 - **Responsive ve Adaptive Tasarım**
   - **Responsive** → Sayfa, ekran boyutuna göre esnek şekilde uyum sağlar.
@@ -453,7 +455,129 @@ ul.features {
     - Örnek: `@media screen and (max-width: 768px) { ... }`
 
 **Örnek Kullanım :**
+```css
+/* Normalize CSS - Basit Örnek */
 
+html {
+    line-height: 1.15;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+img {
+    border-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+/* Reset CSS - Basit Örnek */
+
+/* Tüm elementlerin varsayılan boşluklarını sıfırla */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Liste işaretlerini kaldır */
+ul, ol {
+    list-style: none;
+}
+
+/* Linklerin varsayılan görünümünü kaldır */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Resimleri daha esnek yap */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Butonların varsayılan stilini kaldır */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Başlıkların varsayılan boyutlarını sıfırla */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+/* Responsive Tasarım */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
+
+/* Telefon */
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .container {
+        background-color: lightblue;
+        width: 90%;
+    }
+}
+
+/* Adaptive Tasarım */
+
+/* Masaüstü */
+.container {
+    width: 1200px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .container {
+        width: 700px;
+    }
+}
+
+/* Telefon */
+@media (max-width: 480px) {
+    .container {
+        width: 350px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+```
 
 ---
 ### 📚 Konu Akışı
