@@ -165,6 +165,8 @@ p {
 - CSS kodlarını **açıklama satırları ile gruplamak**, kodun okunabilirliğini ve bakımını kolaylaştırır.  
   Örnek: 
   ```css
+  /* Burada temel yapıyı anlamamız yeterlidir. Yazılan kodlar daha sonra anlatılacaktır */
+  
   /* HEADER STİLİ */
   header {
       background-color: #333;
