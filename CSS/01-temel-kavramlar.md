@@ -17,7 +17,7 @@
 Temel Yapı :
   ```css
 /* Tüm paragrafların yazısı mavi ve 16px olsun */
-/* Burada temel yapıyı anlamamız yeterlidir. Yazılan kodlar daha sonra anlatılacaktır */
+/* Burada temel yapıyı anlamamız yeterlidir. Yazılan kodlar daha sonra anlatılacaktır. */
 p {
   color: blue;       /* Property: color, Value: blue */
   font-size: 16px;   /* Property: font-size, Value: 16px */
@@ -165,7 +165,7 @@ p {
 - CSS kodlarını **açıklama satırları ile gruplamak**, kodun okunabilirliğini ve bakımını kolaylaştırır.  
   Örnek: 
   ```css
-  /* Burada temel yapıyı anlamamız yeterlidir. Yazılan kodlar daha sonra anlatılacaktır */
+  /* Burada temel yapıyı anlamamız yeterlidir. Yazılan kodlar daha sonra anlatılacaktır. */
   
   /* HEADER STİLİ */
   header {
