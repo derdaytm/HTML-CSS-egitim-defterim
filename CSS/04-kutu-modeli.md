@@ -42,7 +42,7 @@ div {
 
 ---
 
-### Width / Height / Max / Min Width-Height
+### `Width` / `Height` / `Max` / `Min` `Width-Height`
 - `width` → Bir elementin **genişliğini** belirler.
 - `height` → Bir elementin **yüksekliğini** belirler.
 - `max-width` → Elementin ulaşabileceği **en büyük genişliği** belirler.
