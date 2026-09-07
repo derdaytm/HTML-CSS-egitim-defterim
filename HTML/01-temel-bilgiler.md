@@ -80,6 +80,10 @@
 
 ### Bazı HTML Element ve Attribute’ları
 
+> **NOT:**
+>
+> Bu element ve attribute’lar HTML’in temel yapı taşlarıdır. İleride kullanımlarını anlayacağız.
+
 - `name="username"` → Form verilerini tanımlamak için elemente isim verir; sadece form gönderiminde kullanılır.  
 - `id="header"` → Elementi benzersiz şekilde tanımlar; CSS veya JavaScript ile erişmek için kullanılır.  
 - `// Yorum` → Tek satırlık yorum yazmak için kullanılır (genellikle JS veya programlama dillerinde).  
@@ -92,10 +96,6 @@
 - `tabindex="1"` → Elementin tab sırasını belirler; sayfa içinde tab ile gezinmeyi kontrol eder.  
 - `accesskey="h"` → Klavye kısayolu atar; örneğin `h` tuşu ile element seçilebilir.  
 - `style="color: red; font-size: 16px;"` → Inline CSS uygulanmasını sağlar; elementin stilini belirler.  
-
-> **NOT:**
->
-> Bu element ve attribute’lar HTML’in temel yapı taşlarıdır. İleride kullanımlarını anlayacağız.
 
 ---
 
