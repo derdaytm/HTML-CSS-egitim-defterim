@@ -27,6 +27,10 @@
   - Örnek: `<meta name="viewport" content="width=600, initial-scale=1.0">` → Sabit genişlik, mobilde bozulabilir.
 
 ### Sosyal Medya ve Paylaşım
+
+> **NOT**
+> Burada anlatılanlar sayfanın linkini bir sosyal medya üzerinden gönderdiğinizde sadece link yerine içerik gitmesini de sağlar.
+
 - `<meta property="og:title" content="Sayfa Başlığı">` → Open Graph, sosyal medya paylaşımı için başlık.
 - `<meta property="og:description" content="Sayfa açıklaması">` → Paylaşıldığında açıklama.
 - `<meta property="og:image" content="resim.png">` → Paylaşım görseli.
