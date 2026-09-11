@@ -37,8 +37,8 @@
 - `<meta name="twitter:card" content="summary_large_image">` → Twitter paylaşımı için kart türü.
 
 ### Güvenlik ve Yönlendirme
-- `<meta http-equiv="Content-Security-Policy" content="default-src 'self'">` → Sayfada izin verilen kaynakları sınırlar.
-- `<meta http-equiv="refresh" content="0; url=https://yeni-sayfa.com">` → Belirli süre sonra yönlendirme.
+- `<meta http-equiv="Content-Security-Policy" content="default-src 'self'">` → Güvenlik amaçlıdır ve başka web sitesinden dosya almayı engeller.
+- `<meta http-equiv="refresh" content="0; url=https://yeni-sayfa.com">` → Siteye gelen ziyaretçiyi belli bir süre sonra diğer siteye yönlendirmeyi sağlar.
 
 > **NOT**  
 > Meta etiketleri tek başına okunarak anlaşılması zor olabilir.  
