@@ -12,12 +12,10 @@
 - `<aside>` → Ana içerikle ilgili ek bilgiler veya menüleri içerir. **Semantiktir.**
 - `<footer>` → Sayfa veya makale alt kısmındaki bilgileri içerir. **Semantiktir.**
 - `<figure>` → Görseller, şekiller ve ilgili başlıkları kapsar. **Semantiktir.**
-- `<figcaption>` → `<figure>` içindeki görselin başlığını tanımlar.
+- `<figcaption>` → `<figure>` içinde kullanılır ve görselin başlığını tanımlar.
 - `<div>` → Genel bölüm oluşturur. **Semantik değildir**, gereksiz kullanılmamalıdır.
 - `<details>` → Ek ayrıntılar sağlar; kullanıcı isteğe bağlı açıp kapatabilir.
-- `<summary>` → `<details>` için başlık tanımlar.
-- `<mark>` → Vurgulanmış veya işaretlenmiş metinleri gösterir.
-- `<time>` → Belirli bir tarih veya zamanı tanımlar.
+- `<summary>` → `<details>` içinde kullanılır ve başlık tanımlar. Başlık kısmından sonra alt kısmı p veya diğer etiketlerle açıklama yazılır.
 
 > **NOT:**
 > 
