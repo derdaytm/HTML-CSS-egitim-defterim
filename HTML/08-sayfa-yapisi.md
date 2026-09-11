@@ -27,6 +27,10 @@
 
 ### Örnek Tasarımlar
 
+> **NOT:**
+> 
+> Buradaki düzen (yerleştirme) `css` ile sağlanır.
+
 ### 1.
 <img width="372" height="542" alt="image" src="https://github.com/user-attachments/assets/34789171-9f10-405a-a8d0-d6c83ea335bc" />
 
