@@ -11,7 +11,7 @@
 - `<meta name="author" content="Yazar Adı">` → Sayfanın yazarını belirtir.
 
 ### Robots ve Arama Motoru Kontrolü
-- `<meta name="robots" content="index, follow">` → Sayfanın indekslenmesini ve linklerin takip edilmesini sağlar.
+- `<meta name="robots" content="index, follow">` → Sayfanın indekslenmesini (arama esnasında görünürlük) ve linklerin takip edilmesini sağlar.
 - `noindex, nofollow` → İndekslenmeyi ve link takibini engeller.
 
 ### Yenileme ve HTTP-EQUIV
