@@ -193,11 +193,21 @@
   <dd>Web sayfalarına etkileşim ve dinamik davranış eklemek için kullanılan programlama dili.</dd>
   <dd>Form doğrulama, animasyon ve API çağrıları gibi işlemler için kullanılır.</dd>
 </dl>
+
+<!-- İç İçe Kullanım Örneği -->
+<dl>
+  <dt class="seviye-1">1. Ana Başlık</dt>
+
+  <dt class="seviye-2">1.1. Alt Başlık</dt>
+  
+  <dt class="seviye-3">1.1.1. Alt Başlığın Altı</dt>
+  <dd class="seviye-3-aciklama">Bu alt başlığa ait açıklama metni burada yer alır.</dd>
+</dl>
 ```
 
 **Tarayıcı Çıktısı:**
 
-<img width="773" height="167" alt="image" src="https://github.com/user-attachments/assets/ebfc6b88-ea97-4f02-aef2-18d175d2a286" />
+<img width="498" height="272" alt="image" src="https://github.com/user-attachments/assets/e4d32a8c-bae3-44e2-a190-3fd383d38eaa" />
 
 ---
 ### 📚 Konu Akışı
