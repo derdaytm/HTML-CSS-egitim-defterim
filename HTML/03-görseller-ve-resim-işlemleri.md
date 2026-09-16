@@ -67,7 +67,7 @@
 
 #### `sizes` ile Birlikte Kullanım
 
-> **NOT**
+> **NOT :**
 > `src` özelliğini birlikte kullanmamızın sebebi, `srcset` desteklenmeyen eski tarayıcılarda en azından bir görselin gösterilmesini sağlamaktır. (fallback görevi görür)
 
 ```html
@@ -92,7 +92,7 @@
 <img src="image.jpg" width="300" height="200" alt="Örnek görsel" />
 ```
 
->**Not:**
+>**Not :**
 > Paint, Photoshop veya Figma gibi araçlarla düzenleme yapmak, sağlıklı bir yöntemdir.
 
 ---
@@ -194,8 +194,7 @@
 
 ### Boyutlara Göre Resim Ekleme (`<picture>`)
 
-> **NOT**
->
+> **NOT :**
 > `srcset` ile aralarındaki fark biri aynı resmi farklı boyutlarda göstermeyi sağlarken biri farklı resim için kullanılır.
 
 - Farklı ekran boyutlarına göre farklı resimler göstermek için **`<picture>`** etiketi kullanılır.  
@@ -238,7 +237,7 @@
 
 ---
 
->**Not**
+>**Not :**
 >
 > Çok sayıda resim varsa `loading="lazy"` kullanarak resim sayfa açılır açılmaz değil, kullanıcı resme yaklaşınca yüklenmesi sağlanır. Varsayılan: loading="eager" (resim hemen yüklenir)
 >
@@ -268,7 +267,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 ```
 
-> **Not**
+> **Not :**
 > `src` yerine `href` kullanılır; `src` yazılabilir ama **önerilmez**.
 
 ---
