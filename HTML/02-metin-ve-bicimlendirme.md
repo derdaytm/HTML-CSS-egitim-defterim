@@ -39,11 +39,11 @@ kelimesi uygun yerden bölünebilir.
 
 ### Başlıklar
 
-- `<h1>` – `<h6>` → Başlık etiketleridir.  
+- `<h1>` – `<h6>` → Başlık etiketleridir.  (Semantik)
   - Sayılar 1’den 6’ya kadar gider.  
   - Hiyerarşik yapıdadır.  
-  - `h1` en büyük başlıktır. (Semantik)
-  - `h6` en küçük başlıktır. (Semantik)
+  - `h1` en büyük başlıktır. 
+  - `h6` en küçük başlıktır. 
 - `<hgroup>` → Başlıkları gruplamak için kullanılır. *(Semantik - Nadiren kullanılır)*
 
 #### Örnek Kullanım
