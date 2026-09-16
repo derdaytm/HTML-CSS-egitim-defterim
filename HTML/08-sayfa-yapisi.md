@@ -1,7 +1,6 @@
 ## Yapısal HTML Etiketleri
 
-> **NOT:**
->
+> **NOT :**
 > Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
 
 - `<article>` → Bağımsız ve kendi başına anlamlı içerik blokları oluşturur. **Semantiktir.**
@@ -17,18 +16,15 @@
 - `<details>` → Ek ayrıntılar sağlar; kullanıcı isteğe bağlı açıp kapatabilir.
 - `<summary>` → `<details>` içinde kullanılır ve başlık tanımlar. Başlık kısmından sonra alt kısmı p veya diğer etiketlerle açıklama yazılır.
 
-> **NOT:**
-> 
+> **NOT :**
 > Bu etiketler **sayfa yapısının daha anlaşılır ve erişilebilir** olmasını sağlar. Semantik etiketler ekran okuyucular ve SEO açısından önemlidir.
 
-> **NOT:**
-> 
+> **NOT :**
 > İçerik bölümü için: Eğer tek makale varsa direkt `<article>` kullanılır; birden fazla makale varsa `<article>` içinde `<section>` etiketleri açılarak içerikler bölümlendirilebilir.
 
-### Örnek Tasarımlar
+### Örnek Tasarımlar :
 
-> **NOT:**
-> 
+> **NOT :**
 > Buradaki düzen (yerleştirme) CSS ile sağlanır.
 
 ### 1.
