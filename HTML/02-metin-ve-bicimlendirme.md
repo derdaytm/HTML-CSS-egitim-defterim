@@ -1,6 +1,6 @@
 ## Metin Özellikleri
 
-> **Not:**  
+> **NOT :**  
 > **Semantik** → Anlam taşıyan, SEO ve erişilebilirliği destekleyen etiketler.  
 > **Semantik değil** → Yalnızca görsel amaçlı kullanılan etiketler.
 
