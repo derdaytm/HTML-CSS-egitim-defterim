@@ -6,12 +6,10 @@
     3. **Value (Değer)** : Property'nin alacağı **değeri** belirtir.
 
 > **NOT :**
->
 > `//` = CSS'te tek satırlık açıklama yapmayı sağlar.   
 > `/* x */` = CSS'te çok satırlı açıklama yapmayı sağlar. 
 
 > **NOT :**
->
 > Diğer dillerde olduğu gibi CSS'tede **anlaşılır yazmak önemlidir**. Bu yüzden stil kurallarını **bloklar halinde** yazmak gerekir.
 
 Temel Yapı :
@@ -31,8 +29,7 @@ p {
   2. Property ve value arasında `:` konulur.
   3. Property'ler arasına `;` konulur.
 
-> **ÖZET**
->
+> **ÖZET :**
 > CSS = Selector (hangi eleman) + property (hangi özellik) + value (değer)
 
 ---
@@ -47,8 +44,7 @@ p {
 - `type ="text/css` = Dosya türünü belirtir. (Çoğu modern tarayıcıda opsiyonel)
 - `href="dosyakonumu.css` = CSS dosyasının konumunu belirtir.
 
-> **NOT:**
->
+> **NOT :**
 > `./` = Bulunduğu klasör anlamına gelir.
 > `../` = Bir üst klasör anlamına gelir.
 
@@ -112,7 +108,6 @@ p {
   - Bu isimler, kullanıcı veya script tarafından temayı değiştirmek için de kullanılabilir.
 
 > **NOT :**
->
 > Bu yöntemle sayfada birden fazla tema barındırabiliriz ve default tema meta etiketi ile kontrol edilir.
 
 ---
@@ -143,8 +138,7 @@ p {
   - Tarayıcıya elementin boyutunu otomatik hesaplamasını söyler.
   - Responsive tasarımda sık kullanılan bir yöntemdir.
 
-> **Not **
->
+> **NOT :**
 > Mobil uyumluluk ve responsive tasarım için em ve % birimleri öncelikli tercih olmalıdır.
 
 | Ölçü Birimi | Kullanım Alanı | Ne Zaman Tercih Edilir? | Notlar |
@@ -153,15 +147,14 @@ p {
 | **%**       | Genişlik, yükseklik, container boyutları | Ebeveyn elementin boyutuna göre orantı gerektiğinde (layout blokları, grid elemanları) | Font ölçüsü yerine parent ölçüsüne göre ölçeklenir. |
 | **auto**    | Genişlik, yükseklik, margin, ortalama | Elementin doğal boyutunu bırakmak veya otomatik ortalamak istediğinizde (margin:auto ile ortalama) | Tarayıcı boyutu hesaplar; responsive için kullanışlıdır ama ölçü vermek gerekmez. |
 
-> ÖZET
->
+> **ÖZET :**
 > - em = Font bazlı ayarlarda
 > - % = Layout ve blok boyutlarında
 > - auto = Tarayıcıya bırakmak veya ortalamak için
 
 ---
 
-## Önemli Noktalar
+## Önemli Noktalar :
 - CSS kodlarını **açıklama satırları ile gruplamak**, kodun okunabilirliğini ve bakımını kolaylaştırır.  
   Örnek: 
   ```css
