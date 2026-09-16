@@ -18,6 +18,7 @@
   - `dosya.zip`/`dosya.rar` → Aynı sitedeki dosyaya gider (indirir).
   - `https://site.com` → Başka bir web sitesine yönlendirir.
   - `mailto:mail@example.com` → E-posta bağlantısı oluşturur.
+  - Eğer body tagine id verip o id'ye gidersek sayfa başına gitmiş oluruz.
 
 > **Not**:
 > Klasör yolu belirtirken `./` kullanmak, dosyanın mevcut proje içinde olduğunu netleştirir ve daha sağlıklı bir yöntemdir.
