@@ -221,10 +221,9 @@
 ---
 
 ### Önemli Noktalar
-- `width` ve `height` tarayıcıya resmin orijinal boyutunu bildirir. Bu, layout shift (sayfa yüklenirken içerik kayması) sorununu önler ve aspect-ratio’yu korur.
-  - `style="aspect-ratio: 4/3"` görselin en boy oranını sabit tutmayı sağlar.  
+- Resmin orijinal boyutunu `width` ve `height` kullanarak girmeliyiz. Bu, layout shift (sayfa yüklenirken içerik kayması) sorununu önler.
 - Metinlere `alt` eklenmesi seo açısından önemlidir.
-- `crossorigin = "anonymous"`: CDN veya farklı kaynaklardan yüklenen resimler için CORS problemi yaşamamak adına `img` ile beraber kullanılır. (kendi sunucundan almadığın durumlarda)
+- `crossorigin = "anonymous"`: CDN veya farklı kaynaklardan yüklenen resimlerde işlem yapmak için (CORS problemi yaşamamak adına) `img` ile beraber kullanılır. (kendi sunucundan almadığın durumlarda)
 - `referrerpolicy` tarayıcının sunucuya hangi bilgiyi göndereceğini ayarlar.
   - `no-referrer` → Hiçbir referer bilgisi gönderilmez.
   - `origin` → Sadece sayfanın kök URL'sini gönderir, tam sayfa URL'sini değil.
