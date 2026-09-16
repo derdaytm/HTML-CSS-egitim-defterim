@@ -25,7 +25,11 @@
 ### Erişilebilirlik (ARIA) Etiketleri
 
 - `aria-label` → Tabloya kısa bir açıklama ekler; kullanıcıya sadece ekran okuyucu aracılığıyla görünür.  
-- `aria-describedby` → Tabloyla ilgili daha uzun bir açıklama veya referans belirtir; genellikle başka bir öğeye işaret eder ve ekran okuyucuda tabloyla ilişkilendirilir.  
+- `aria-describedby` → Tabloyla ilgili daha uzun bir açıklama veya referans belirtir; genellikle başka bir öğeye işaret eder ve ekran okuyucuda tabloyla ilişkilendirilir.
+
+> **NOT :**
+>
+> Bu özellikler sayfa okuma moduna alındığında kullanılır.
 
 ### Ek HTML Yapıları
 
