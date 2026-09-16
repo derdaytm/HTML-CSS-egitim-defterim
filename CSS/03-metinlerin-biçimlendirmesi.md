@@ -17,7 +17,6 @@ p {
       rel="stylesheet" type="text/css">`
 
 > **NOT :**
->
 > Font eklerken mutlaka bir **yedek font listesi** belirleyin, böylece kullanıcıların cihazında ana font yoksa bile diğer fontlar devreye girer.
 > [Buraya tıklayarak](https://fonts.google.com/) yazı tipi seçebilirsiniz.
 
@@ -46,7 +45,6 @@ span {
 ```
 
 > **NOT :**
->
 > Google üzerinden renklerin hex ve RGB kodlarına ulaşabilirsiniz.
 
 - Modern tarayıcıların hepsi bu üç yöntemi de destekler.
@@ -59,8 +57,7 @@ div {
 }
 ```
 
-> **NOT : **
->
+> **NOT :**
 > Renk seçerken kontrastı göz önünde bulundurun; özellikle metin arka planla okunabilir olmalı.
 
 ---
@@ -96,7 +93,6 @@ div {
 ```
 
 >**NOT :**
->
 > Responsive tasarım için `px` yerine `em` veya `%` kullanmak daha uygundur; çünkü font boyutları ebeveyn elementlere göre ölçeklenir.
 
 ---
@@ -136,7 +132,6 @@ div {
 ```
 
 >**NOT :**
->
 > `Font-weight`, yazı tipinin desteklediği ağırlık değerlerine bağlıdır; bazı fontlarda tüm ağırlıklar bulunmayabilir.
 
 ---
@@ -172,7 +167,6 @@ span {
 ```
 
 > **NOT :**
->
 > `Font-style` genellikle **başlıklar, vurgular ve italik metinler** için kullanılır.
 
 ---
@@ -208,7 +202,6 @@ h2 {
 ```
 
 > **NOT :**
->
 > `Small-caps` özellikle başlıklar ve vurgulu metinlerde estetik ve okunabilirlik için tercih edilir.
 
 ---
@@ -246,7 +239,6 @@ h2 {
 ```
 
 > **NOT :**
->
 > `text-transform` genellikle başlıklar, menü öğeleri veya vurgulu metinler için kullanılır.
 
 ---
@@ -285,7 +277,6 @@ span {
 ```
 
 > **NOT :**
->
 > `text-decoration` özellikle linkler, başlıklar ve vurgu yapılacak metinler için sık kullanılır.
 
 ---
@@ -326,7 +317,6 @@ div {
 ```
 
 > **NOT :**
->
 > Bu özellikler okunabilirliği ve tasarımı artırmak için sık kullanılır, özellikle metin bloklarında ve paragraflarda önemlidir.
 
 ---
@@ -360,7 +350,6 @@ article {
 ```
 
 >**NOT :**
->
 > `text-align` özellikle başlıklar, paragraflar ve blok metinler için kullanılır ve sayfa düzeninde önemli rol oynar.
 
 ---
@@ -410,7 +399,6 @@ background: renk url(resim_konumu) tekrar pozisyon;
 ```
 
 > **NOT :**
->
 > `background` özellikleri sayfanın görselliği ve estetiği için kritik öneme sahiptir. Arka plan resimleri ve renkleri ile tasarım bütünlüğü sağlanır.
 
 ---
@@ -437,7 +425,6 @@ ul.features {
 ```
 
 > **NOT :**
->
 > `column-count` ile birlikte column-gap özelliği kullanarak sütunlar arası boşluğu da ayarlayabilirsiniz.
 
 ---
