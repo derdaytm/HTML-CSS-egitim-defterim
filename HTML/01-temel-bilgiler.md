@@ -80,8 +80,7 @@
 
 ### Bazı HTML Element ve Attribute’ları
 
-> **NOT:**
->
+> **NOT :**
 > Bu element ve attribute’lar HTML’in temel yapı taşlarıdır. İleride kullanımlarını anlayacağız.
 
 - `name="username"` → Form verilerini tanımlamak için elemente isim verir; sadece form gönderiminde kullanılır.  
