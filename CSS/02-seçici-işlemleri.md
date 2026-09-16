@@ -91,7 +91,6 @@
       ```
 
 > **NOT :**
->
 > Inline sadece küçük, tek seferlik değişiklikler için uygundur. Internal küçük projelerde tercih edilebilir.
 > External yöntem büyük projelerde ve tekrar kullanılacak stillerde en iyi uygulamadır.
 
@@ -157,7 +156,6 @@
 - Bu sırayla CSS kuralları **çakışma olduğunda** hangisinin uygulanacağını belirler.
 
 > **NOT :**
->
 > Buradaki tüm örnekleri ezberlemenize gerek yok.   
 > Önemli olan **temel mantığı anlamaktır**.    
 > İlk 9-10 örneği anladıysanız, diğerlerini ihtiyaç oldukça buradan kontrol ederek kullanabilirsiniz.   
@@ -165,7 +163,7 @@
 ### Tag Seçme
 - HTML tagını doğrudan yazarak o tagın tamamına CSS uygulanabilir.
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 ```css
 /* Burada temel yapıyı anlamamız yeterlidir. Yazılan kodlar daha sonra anlatılacaktır. */
 
@@ -453,7 +451,6 @@ h2:only-of-type {
 ```
 
 > **NOT :**
->
 > `:nth-child(n)` ve `:nth-of-type(n)` → Öğelerin belirli sıralarını seçmek için kullanılır.
 
 ### Evrensel Seçici (*)
@@ -725,7 +722,6 @@ textarea:optional {
 ```
 
 > **NOT :**
->
 > `:checked`, `:disabled`, `:enabled`, `:required` → Genellikle form elemanları ile kullanılır.
 
 ### Link / Visited / Active / Hover / Focus Seçicileri
@@ -738,7 +734,6 @@ textarea:optional {
 - Genellikle **link durumları ve kullanıcı etkileşimi** için tercih edilir.
 
 > **NOT :**
->
 > `:hover` ve `:focus` → Etkileşimli öğeler için kullanılır.
 > `:link` ve `:visited` → Bağlantıların durumuna göre seçim yapar.
 
