@@ -28,7 +28,7 @@
 
 ### Sosyal Medya ve Paylaşım
 
-> **NOT**
+> **NOT :**
 > Burada anlatılanlar sayfanın linkini bir sosyal medya üzerinden gönderdiğinizde sadece link yerine içerik gitmesini de sağlar.
 
 - `<meta property="og:title" content="Sayfa Başlığı">` → Open Graph, sosyal medya paylaşımı için başlık.
@@ -40,13 +40,13 @@
 - `<meta http-equiv="Content-Security-Policy" content="default-src 'self'">` → Güvenlik amaçlıdır ve başka web sitesinden dosya almayı engeller.
 - `<meta http-equiv="refresh" content="0; url=https://yeni-sayfa.com">` → Siteye gelen ziyaretçiyi belli bir süre sonra diğer siteye yönlendirmeyi sağlar.
 
-> **NOT**  
+> **NOT :**  
 > Meta etiketleri tek başına okunarak anlaşılması zor olabilir.  
 > En iyi öğrenme yöntemi **örnek bir HTML sayfası** içine ekleyerek, tarayıcıda nasıl çalıştığını görmek ve test etmektir.
 
 ---
 
-### Kapsamlı HTML Örneği
+### Kapsamlı HTML Örneği :
 
 ```html
 <!DOCTYPE html>
