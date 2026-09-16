@@ -22,7 +22,6 @@ CSS kutu modeline geçmeden önce bilmemiz gereken bir konu: bazı HTML elementl
 <img width="468" height="401" alt="image" src="https://github.com/user-attachments/assets/73cb46e1-3d72-4bc5-a92e-c2934b9fa00a" />    <br>
 
 > **NOT :**
->
 > Block ve inline davranışları `display` özelliğiyle değiştirebiliriz. Ayrıca block elemanlarının içinde inline elemanlarda bulunabilir.
 > Ayrıca `display: flex` özelliği ile kutuyu esnek hale getirebiliriz.(içindeki kutuları esnek bir şekilde hizalar ve yerleştirir) 
 
@@ -171,7 +170,7 @@ Margin (Dış Boşluk)
   - Yani **padding ve border, bu toplam boyutun içine dahil edilir**.  
   - Böylece kutu dışa taşmaz, sadece içerik alanı küçülür.  
 
-**Örnek Karşılaştırma:**  
+**Örnek Karşılaştırma :**  
 
 ```css
 /* Normal (content-box) */
@@ -227,7 +226,7 @@ div {
 
 <img width="640" height="212" alt="image" src="https://github.com/user-attachments/assets/37c1738c-fd9d-40a0-8e55-fe587e4871ab" />          <br>
 
-**Konumlandırma:**
+**Konumlandırma :**
 
 - `top: x;` → Elementin **üstten x kadar uzaklığını** belirler.  
 - `bottom: x;` → Elementin **alttan x kadar uzaklığını** belirler.  
@@ -237,7 +236,7 @@ div {
 > Bu değerler yalnızca `relative`, `absolute`, `fixed` veya `sticky` position ile çalışır.  
 > `static` için top/left/right/bottom değerleri etkisizdir.
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 /* Relative */
@@ -271,7 +270,7 @@ div.absolute {
 - **Düşük veya negatif değer** → arkada görünür.  
 - `z-index` sadece **position: relative, absolute, fixed veya sticky** ile çalışan elementlerde geçerlidir.  
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 /* Önde görünmesi için */
@@ -294,7 +293,6 @@ div.arka {
 ```
 
 >**NOT :**
->
 > Eğer iki kutu aynı `z-index` değerine sahipse, HTML akış sırasına göre üstte olan kutu önde görünür.
 > `z-index` değeri negatif, sıfır veya pozitif olabilir.
 
@@ -313,7 +311,7 @@ div.arka {
 | `scroll`  | Taşma olmasa bile **her zaman kaydırma çubuğu** görünür. |
 | `auto`    | Taşma olursa **kaydırma çubuğu** otomatik görünür, taşmazsa kaydırma çubuğu yoktur. |
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 div.kutu {
@@ -332,7 +330,7 @@ div.kutu {
 - `visibility: hidden` → Kutuyu **görünmez yapar**, ancak kutunun yer kapladığı alan hâlâ durur.  
 - `display: none` → Kutuyu **görünmez yapar ve alanını kaldırır**, yani sanki HTML’de yokmuş gibi davranır.  
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 /* Float ile sağa yaslama */
@@ -366,7 +364,7 @@ div.gorunmez-tamamen {
 
 - `border-radius` özelliği, bir kutunun **köşelerini yuvarlatmak** için kullanılır.  
   
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 /* Tüm köşeleri 10px yuvarlat */
@@ -401,7 +399,7 @@ div.ust-yuvarlak {
 
 - `box-shadow` özelliği, bir kutuya **gölge efekti** eklemek için kullanılır.  
 
-**Parametreler:**
+**Parametreler :**
 
 | Parametre | Açıklama |
 |-----------|----------|
@@ -415,7 +413,7 @@ div.ust-yuvarlak {
 
 - Kullanım formatı:  `box-shadow: h-shadow v-shadow blur spread color inset;`
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 /* Temel gölge */
@@ -460,7 +458,7 @@ Renk ve resim birlikte kullanıldığında, renk resmin altında görünür.
 - `background-repeat` özelliği, **arka plan resminin kutu içinde tekrar edip etmeyeceğini** belirler.  
 - Bu özellik sayesinde bir resmin yatayda, dikeyde veya her iki yönde tekrarlanmasını kontrol edebilirsiniz.
 
-**Değerler:**
+**Değerler :**
 
 | Değer | Açıklama |
 |-------|----------|
@@ -469,7 +467,7 @@ Renk ve resim birlikte kullanıldığında, renk resmin altında görünür.
 | `repeat-x` | Sadece yatay eksende resmi tekrarlar. |
 | `repeat-y` | Sadece dikey eksende resmi tekrarlar. |
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 ```css
 div.tekrar {
   background-repeat: no-repeat;
@@ -488,7 +486,7 @@ div.tekrar {
 | `scroll` | Varsayılan değerdir. Sayfa kaydırıldığında arka plan resmi da kayar. |
 | `fixed`  | Arka plan resmi **sayfaya sabitlenir**. Sayfa kaydırılsa bile resim hareket etmez. |
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 div.sabit {
@@ -507,7 +505,7 @@ div.kaydir {
 - `background-position` özelliği, arka plan resminin **kutunun içinde nerede konumlanacağını** belirler.  
 - Bu özellik sayesinde resmin yatay ve dikey konumunu kolayca ayarlayabilirsiniz.
 
-**Örnek Değerler:**
+**Örnek Değerler :**
 
 | Değer           | Açıklama |
 |-----------------|----------|
@@ -516,7 +514,7 @@ div.kaydir {
 | `right bottom`  | Resim kutunun **sağ alt köşesinde** başlar. |
 | `x y`           | Piksel veya yüzde ile **belirli bir konum** ayarlayabilirsiniz. Örn: `50px 20px`, `25% 50%`. |
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 div.konum {
@@ -535,7 +533,7 @@ div.konum2 {
 - `background-size` özelliği, arka plan resminin **genişlik ve yükseklik** ayarlarını kontrol eder.  
 - Bu sayede resmi kutuya sığdırabilir veya kutuyu tamamen kaplayacak şekilde ölçeklendirebilirsiniz.
 
-**Örnek Değerler:**
+**Örnek Değerler :**
 
 | Değer      | Açıklama |
 |------------|----------|
@@ -544,7 +542,7 @@ div.konum2 {
 | `cover`    | Resim kutuyu tamamen **kaplayacak şekilde** ölçeklenir, taşabilir. |
 | `contain`  | Resim kutuya **sığacak şekilde** ölçeklenir, taşmaz, kenarlarda boşluk olabilir. |
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 div.boyut {
@@ -573,13 +571,13 @@ div.boyut4 {
 - `background` özelliği, **arka plan rengini, resmini, tekrar davranışını, konumunu ve boyutunu** tek bir satırda tanımlamak için kullanılır.  
 - Böylece `background-color`, `background-image`, `background-repeat`, `background-position` ve `background-size` gibi ayrı özellikleri ayrı ayrı yazmak yerine **toplu ve kısa** bir şekilde tanımlayabilirsiniz.
 
-**Kullanım Sırası:**
+**Kullanım Sırası :**
 
 ```text
 background: <renk> <resim> <repeat> <attachment> <position> / <size>;
 ```
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 ```css
 /* 1. Basit renk ve resim */
 div.toplu1 {
@@ -604,14 +602,14 @@ div.toplu3 {
 - `flex-direction` özelliği, **Flex konteyner içindeki öğelerin dizilme yönünü** belirler.  
 - Flex konteyner oluşturmak için önce `display: flex;` kullanılır.  
 
-**Değerler:**
+**Değerler :**
 
 | Değer    | Açıklama |
 |----------|----------|
 | `row`    | Öğeler **yatay eksende** (soldan sağa) dizilir. Varsayılan değerdir. |
 | `column` | Öğeler **dikey eksende** (üstten alta) dizilir. |
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 /* Yatay dizilim */
@@ -634,7 +632,7 @@ div.kutu-column {
 - `flex-direction` özelliği, Flex konteyner içindeki öğelerin **dizilme yönünü ve sıralamasını** belirler.  
 - Normal veya ters yönlerde yatay veya dikey olarak sıralama yapılabilir.
 
-**Değerler ve Açıklamaları:**
+**Değerler ve Açıklamaları :**
 
 | Değer               | Açıklama |
 |--------------------|----------|
@@ -643,7 +641,7 @@ div.kutu-column {
 | `column`           | Dikey eksende **normal sıralama** (1 üste, 3 alta). |
 | `column-reverse`   | Dikey eksende **ters sıralama** (3 üste, 1 alta). |
 
-#### Örnek Kullanım:
+#### Örnek Kullanım :
 
 ```css
 /* Normal yatay sıralama */
@@ -699,10 +697,9 @@ div.flex-column-reverse {
 | `space-around`      | Elemanların çevresinde eşit boşluk bırakır. |
 
 >**NOT :**
->
 > Bizim öncesinde (`flex-direction`) belirlediğimiz kurallara göre biri yatayda biri dikeyde ortalama yapar.
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 /* Dikeyde üst hizalama */
@@ -746,7 +743,7 @@ div.flex-column-orta {
 - Yani kutuların genişliğini birbirinden bağımsız şekilde belirlemeyi sağlar.
 - `flex: x;` → Buradaki **x**, toplam flex değerleri içinde kutunun payını belirtir.  
 
-**Örnek Senaryo:**
+**Örnek Senaryo :**
 
 3 adet kutu var ve flex değerleri şöyle:  
 
@@ -762,7 +759,7 @@ div.flex-column-orta {
   - 2. kutu → 1 / 5 = 20%  
   - 3. kutu → 1 / 5 = 20%  
 
-**Örnek Kullanım:**
+**Örnek Kullanım :**
 
 ```css
 div.konteyner {
@@ -791,7 +788,7 @@ div.kutu3 {
 
 ### Temel Çözüm Adımları
 
-1. **Flex wrap kullanımı:**
+1. **Flex wrap kullanımı :**
 ```css
 .kapsayici {
   display: flex;
@@ -799,7 +796,7 @@ div.kutu3 {
 }
 ```
 
-2. **Genişlik Belirleme:**
+2. **Genişlik Belirleme :**
 - Her kutuya `width` veya `flex-basis` ile minimum genişlik verilir.
 
 ```css
@@ -810,15 +807,14 @@ div.kutu3 {
 }
 ```
 
-> Farklar:
->
+> **FARKLAR :**
 > `width` → Sabit genişlik verir, flex konteynerin oranları veya wrap durumuna göre değişmez.    
 > `flex-basis` → Kutunun başlangıç genişliğini belirler ama flex konteynerin flex değerleri ile birlikte esneyebilir.
 
 3. **Alt Satıra Geçiş:**
 - Eğer toplam kutu genişliği kapsayıcı genişliğini aşarsa, fazla kutular otomatik olarak alt satıra kayar.
 
-**Örnek Kullanım:**    
+**Örnek Kullanım :**    
 HTML Dosyası :    
 ```html
 <div class="kapsayici">
