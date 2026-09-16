@@ -21,8 +21,7 @@ HTML5, temel olarak **mp4, webm ve ogg** formatlarını destekler.
 
 Videoları HTML sayfasına eklemek için kullanılır.
 
-> **NOT**
->
+> **NOT :**
 > Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
 
 #### Video Özellikleri
@@ -65,7 +64,7 @@ Videoları HTML sayfasına eklemek için kullanılır.
   - Mobil cihazlarda videonun **tam ekran yerine sayfa içinde** oynatılmasını sağlar.
   - Önerilen kullanım, özellikle **iOS Safari** gibi tarayıcılarda otomatik oynatma ve kullanıcı deneyimi için önemlidir.
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <video 
@@ -95,8 +94,7 @@ Videoları HTML sayfasına eklemek için kullanılır.
 
 Ses dosyalarını HTML sayfasına eklemek için kullanılır.
 
-> **NOT**
->
+> **NOT :**
 > Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
 
 #### `<audio>` Etiketi Özellikleri
@@ -135,7 +133,7 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
   - Mobil cihazlarda videonun **tam ekran yerine sayfa içinde** oynatılmasını sağlar.
   - Önerilen kullanım, özellikle **iOS Safari** gibi tarayıcılarda otomatik oynatma ve kullanıcı deneyimi için önemlidir.
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <audio 
@@ -187,7 +185,7 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
   - `type` → İçeriğin MIME türü
   - `width` ve `height` → Boyutlandırma (piksel cinsinden)
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <object data="example.pdf" type="application/pdf" width="600" height="400">
@@ -205,14 +203,15 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
 
 HTML sayfasına medya veya eklenti tabanlı içerik gömmek için kullanılır.  
 
-> **Not:** Alternatif içerik göstermez; tarayıcı desteklemezse boş alan kalır.
+> **Not :**
+> Alternatif içerik göstermez; tarayıcı desteklemezse boş alan kalır.
 
 ### Özellikler
 - `src` → İçeriğin kaynağı
 - `type` → İçeriğin MIME türü
 - `width` ve `height` → Boyutlandırma (piksel cinsinden)
 
-### Örnek Kullanım
+### Örnek Kullanım :
 
 ```html
 <embed src="example.pdf" type="application/pdf" width="600" height="400">
@@ -233,7 +232,7 @@ HTML sayfasına medya veya eklenti tabanlı içerik gömmek için kullanılır.
 | Esneklik               | Yüksek                             | Daha basit                      |
 | Kullanım               | PDF, Flash, diğer medya türleri     | Video, ses, eklenti tabanlı içerikler |
 
-> **Not:**  
+> **Not :**  
 > Günümüz projelerinde video için `<video>`, ses için `<audio>`, PDF için JS tabanlı çözümler veya `<iframe>` kullanmak daha yaygındır.  
 > `<object>` ve `<embed>` genellikle eski veya özel durumlar için tercih edilir.
 
