@@ -7,8 +7,9 @@
           ```
           <img src="dosya-konumu/dosya-adı.uzantı" alt="Açıklama" title="Resim Başlığı" />
           ```
-> **Not:**  
-> - `../` kullanarak üst klasöre çıkabiliriz. <br>
+> **Not:**
+> - Klasör yolu belirtirken `./` kullanmak, dosyanın mevcut proje içinde olduğunu netleştirir ve daha sağlıklı bir yöntemdir.
+> `../` kullanarak bir üst klasöre çıkabiliriz. <br>
 > - `src` özelliğine fotoğraf URL’i girilebilir, ancak kullanımı **önerilmemektedir**. <br>
 > - `alt` her zaman eklenmeli; görme engelli kullanıcılar ve arama motorları için gereklidir.<br>
 > - `title` isteğe bağlıdır, kullanıcıya ek bilgi sunar.
