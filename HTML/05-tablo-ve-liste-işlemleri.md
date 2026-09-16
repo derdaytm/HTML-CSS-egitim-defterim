@@ -133,12 +133,12 @@
     - `circle` → Boş daire.
     - `square` → Dolu kare.
     - `none` → İşaret kaldırılır.
-> **Not :**
+> **NOT :**
 > `<ul>` için `list-style-type` kullanarak CSS ile de değiştirilebilir; özel marker kullanımı CSS ile daha esnektir.
 - `<li>` → Liste elemanlarını gösterir.
   - `value="x"` → Tek tek `<ol>` elemanının numarasını değiştirmek için kullanılır.
 
-### Örnek Kullanım
+### Örnek Kullanım :
 ```html
 <!-- Numaralı Liste Örneği -->
 <ol start="3" type="A" reversed="reversed">
@@ -178,7 +178,7 @@
 
 > Birden fazla `<dt>` ve `<dd>` kullanılabilir; her `<dt>` için bir veya birden fazla `<dd>` olabilir.
 
-> **Not :**
+> **NOT :**
 > HTML attribute ile listelerin tipi ve sıralama kontrol edilebilir, ancak modern projelerde genellikle CSS ile stil ve marker değiştirme tercih edilir.
 
 ### Örnek Kullanım :
