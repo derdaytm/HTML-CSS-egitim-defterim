@@ -4,7 +4,7 @@
 - Form etiketi içine yazılan tüm alanlar gönderime dahil edilir.
 - Form içine direk yazı yazılabilir.
 
-> **NOT**  
+> **NOT :**  
 > Bu bölüm tek bir kapsamlı örnek üzerinden anlatılmıştır.  
 > Form konusu oldukça geniştir ve yalnızca okuyarak değil, **örnekler üzerinde birebir inceleme ve deneme yapılarak** anlaşılır.  
 > Bu nedenle form yapıları, **örnekle birlikte incelendiğinde** ve farklı senaryolar uygulanarak çalışıldığında kalıcı şekilde öğrenilir.
@@ -125,7 +125,7 @@
 #### Birlikte Kullanım
 - `accept=".pdf,image/*"` → PDF **veya** resim dosyaları
 
-> **Notlar**
+> **NOT :**
 > - `accept` sadece **kullanıcıya rehberlik eder**, güvenlik değildir.
 > - Gerçek kontrol **sunucu tarafında** yapılmalıdır.
 > - Dosya yükleme için formda `enctype="multipart/form-data"` zorunludur.
@@ -253,7 +253,7 @@
 
 ---
 
-### Örnek Kullanımlar
+### Örnek Kullanımlar :
 ```html
 <form 
   name="kayitFormu"
