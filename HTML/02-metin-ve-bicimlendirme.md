@@ -12,7 +12,7 @@
 - `<br />` → Satır atlamayı sağlar, kapanış etiketi yoktur. *(Semantik değil)*
 - `<wbr />` → Satıra sığmayan kelimelerin uygun yerden alt satıra geçmesini sağlar. *(Semantik değil - Özel durumlarda kullanılır)*
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>Bu bir paragraftır.</p>
@@ -46,7 +46,7 @@ kelimesi uygun yerden bölünebilir.
   - `h6` en küçük başlıktır. 
 - `<hgroup>` → Başlıkları gruplamak için kullanılır. *(Semantik - Nadiren kullanılır)*
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <hgroup>
@@ -80,7 +80,7 @@ kelimesi uygun yerden bölünebilir.
 - `<small>` → Daha küçük yazı gösterir. *(Semantik değil)*
 - `<hr />` → Satır çizgisi çeker. *(Semantik)*
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>
@@ -110,7 +110,7 @@ kelimesi uygun yerden bölünebilir.
   - Satır içi kaynak ve alıntı belirtmek için `<cite>` kullanılabilir.
 - `<q>` → Kısa alıntılar için kullanılır, tarayıcı otomatik tırnak ekler. *(Semantik)*
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>
@@ -139,7 +139,7 @@ kelimesi uygun yerden bölünebilir.
   - `title` özelliği ile açılım belirtilir.
 - `<dfn>` → Tanımı yapılan terimi belirtir. *(Semantik)*
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>
@@ -164,7 +164,7 @@ kelimesi uygun yerden bölünebilir.
 - `<sup>` → Üst simge oluşturur. *(Semantik değil)*
 - `<sub>` → Alt simge oluşturur. *(Semantik değil)*
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>
@@ -190,7 +190,7 @@ kelimesi uygun yerden bölünebilir.
 - `<var>` → Matematiksel veya programlama değişkenlerini belirtir. *(Semantik)*
 - `<pre>` → İçeriği yazıldığı biçimde gösterir. Genelde vurgu yapmak veya alıntı yapılan metinlerde kullanılır. *(Semantik değil)*
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>
@@ -227,7 +227,7 @@ function hello() {
 - `<span>` → Satır içi metinleri seçmek ve CSS ile stil vermek için kullanılır. *(Semantik değil)*
 - `<address>` → Belgenin yazarına ait iletişim bilgilerini belirtir. *(Semantik)*
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>
@@ -253,7 +253,7 @@ function hello() {
   - Makine tarafından okunabilir zaman verisi sağlar.  
   - SEO ve erişilebilirliği destekler.
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>
@@ -276,7 +276,7 @@ function hello() {
 - `<bdo>` → Metnin yazım yönünü zorla belirler (`ltr`, `rtl`). *(Semantik)*  
   - Sağdan sola yazılan diller için kullanılır.
  
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>
@@ -299,7 +299,7 @@ function hello() {
   - `<rt>` ve `<rp>` etiketleriyle birlikte kullanılır.
   - Çoğu projede gerekmez, özel durumlara yöneliktir.
  
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>
@@ -334,7 +334,7 @@ function hello() {
 | Yazı tipi | `face="Arial"` | `style="font-family: Arial;"` |
 | Hizalama | `align="center"` | `style="text-align: center;"` |
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 ```html
