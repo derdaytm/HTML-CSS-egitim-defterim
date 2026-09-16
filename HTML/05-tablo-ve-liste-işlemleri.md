@@ -1,7 +1,6 @@
 ## Tablo İşlemleri
 
-> **NOT**
->
+> **NOT :**
 > Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
 
 - `<table>` → Tablo oluşturmak için ana etikettir.  
@@ -38,7 +37,7 @@
 > **NOT :**
 > `summary` ve `details` doğrudan tablo etiketi ile ilgili değildir ama tablo verisini açıklayıcı veya katlanabilir bilgi eklemek için kullanılabilir.
 
-### Örnek Kullanım
+### Örnek Kullanım :
 
 ```html
 <table 
@@ -116,8 +115,7 @@
 
 ## Liste İşlemleri
 
-> **NOT**
->
+> **NOT :**
 > Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
 
 - `<ol>` → Numaralı liste oluşturmak için kullanılır.
@@ -135,7 +133,7 @@
     - `circle` → Boş daire.
     - `square` → Dolu kare.
     - `none` → İşaret kaldırılır.
-> **Not**:
+> **Not :**:
 > `<ul>` için `list-style-type` kullanarak CSS ile de değiştirilebilir; özel marker kullanımı CSS ile daha esnektir.
 - `<li>` → Liste elemanlarını gösterir.
   - `value="x"` → Tek tek `<ol>` elemanının numarasını değiştirmek için kullanılır.
@@ -180,10 +178,10 @@
 
 > Birden fazla `<dt>` ve `<dd>` kullanılabilir; her `<dt>` için bir veya birden fazla `<dd>` olabilir.
 
-> **Not**:
+> **Not :**
 > HTML attribute ile listelerin tipi ve sıralama kontrol edilebilir, ancak modern projelerde genellikle CSS ile stil ve marker değiştirme tercih edilir.
 
-### Örnek Kullanım
+### Örnek Kullanım :
 ```html
 <dl>
   <dt>HTML</dt>
