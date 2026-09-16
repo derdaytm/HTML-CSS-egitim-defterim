@@ -28,7 +28,6 @@
 - `aria-describedby` → Tabloyla ilgili daha uzun bir açıklama veya referans belirtir; genellikle başka bir öğeye işaret eder ve ekran okuyucuda tabloyla ilişkilendirilir.
 
 > **NOT :**
->
 > Bu özellikler sayfa okuma moduna alındığında kullanılır.
 
 ### Ek HTML Yapıları
@@ -36,7 +35,8 @@
 - `<details>` → Gizli içerik eklemek için kullanılır; kullanıcı tıkladığında açılır.  
 - `<summary>` → `<details>` içinde başlık olarak görünür ve tıklanabilir alan sağlar.  
 
-> Not: `summary` ve `details` doğrudan tablo etiketi ile ilgili değildir ama tablo verisini açıklayıcı veya katlanabilir bilgi eklemek için kullanılabilir.
+> **NOT :**
+> `summary` ve `details` doğrudan tablo etiketi ile ilgili değildir ama tablo verisini açıklayıcı veya katlanabilir bilgi eklemek için kullanılabilir.
 
 ### Örnek Kullanım
 
