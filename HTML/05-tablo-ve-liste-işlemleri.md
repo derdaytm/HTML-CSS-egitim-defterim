@@ -133,7 +133,7 @@
     - `circle` → Boş daire.
     - `square` → Dolu kare.
     - `none` → İşaret kaldırılır.
-> **Not :**:
+> **Not :**
 > `<ul>` için `list-style-type` kullanarak CSS ile de değiştirilebilir; özel marker kullanımı CSS ile daha esnektir.
 - `<li>` → Liste elemanlarını gösterir.
   - `value="x"` → Tek tek `<ol>` elemanının numarasını değiştirmek için kullanılır.
