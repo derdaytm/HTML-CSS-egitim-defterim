@@ -221,7 +221,13 @@
 ---
 
 ### Önemli Noktalar
-- Resmin orijinal boyutunu `width` ve `height` kullanarak girmeliyiz. Bu, layout shift (sayfa yüklenirken içerik kayması) sorununu önler.
+- HTML tarafında resmin orijinal boyutunu `width` ve `height` kullanarak girmeliyiz.Bu, tarayıcının resim inmeden yer ayırmasını sağlar ve Layout Shift (içerik kayması) sorununu önler. CSS tarafında ise resmin esnek (responsive) olması için şu kuralı eklemeliyiz:
+  - ```css
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    ```
 - Metinlere `alt` eklenmesi seo açısından önemlidir.
 - `crossorigin = "anonymous"`: CDN veya farklı kaynaklardan yüklenen resimlerde işlem yapmak için (CORS problemi yaşamamak adına) `img` ile beraber kullanılır. (kendi sunucundan almadığın durumlarda)
 - `referrerpolicy` tarayıcının sunucuya hangi bilgiyi göndereceğini ayarlar.
