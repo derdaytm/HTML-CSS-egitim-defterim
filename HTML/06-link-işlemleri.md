@@ -57,9 +57,8 @@
 
 ### Download Özelliği 
 
-- `download` → Bağlantıya tıklandığında dosyanın **indirilmeye zorlanmasını** sağlar.
-  - `download`  → Dosyayı, sunucu izin veriyorsa **indirir**.
-  - `download="dosyaAdi.ext"` → İndirilen dosyanın **kaydedileceği adı** belirler.
+- `download="x"` → Bağlantıya tıklandığında dosyanın **indirilmeye zorlanmasını** sağlar.
+  - `x` → İndirilen dosyanın **kaydedileceği adı** belirler.
 
 > Not:
 > - `download` genellikle **aynı origin (aynı site)** dosyalarında çalışır.
