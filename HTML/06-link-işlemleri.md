@@ -1,7 +1,6 @@
 ## Link İşlemleri
 
-> **NOT**
->
+> **NOT :**
 > Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
 
 - `<a>` → Bağlantı (link) oluşturmak için kullanılır. Anchor kelimesinden gelir.
@@ -20,7 +19,7 @@
   - `https://site.com` → Başka bir web sitesine yönlendirir.
   - `mailto:mail@example.com` → E-posta bağlantısı oluşturur.
 
-> **Not**:
+> **NOT :**
 > Klasör yolu belirtirken `./` kullanmak, dosyanın mevcut proje içinde olduğunu netleştirir ve daha sağlıklı bir yöntemdir.
 > `../` kullanarak bir üst klasöre çıkabiliriz.
 
@@ -35,7 +34,7 @@
 - Ziyaret edilmiş link → Mor ve altı çizili
 - Aktif (tıklanma anı) link → Kırmızı ve altı çizili
 
-> **Not**:
+> **NOT :**
 > Bu görüntüler tarayıcı varsayılanıdır, CSS ile değiştirilebilir.
 
 ### Bağlantı Davranışları
@@ -60,11 +59,11 @@
 - `download="x"` → Bağlantıya tıklandığında dosyanın **indirilmeye zorlanmasını** sağlar.
   - `x` → İndirilen dosyanın **kaydedileceği adı** belirler.
 
-> Not:
+> **NOT :**
 > - `download` genellikle **aynı origin (aynı site)** dosyalarında çalışır.
 > - Harici (başka site) dosyalarda tarayıcı tarafından engellenebilir.
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <!-- Sayfa içi link (id ile) -->
@@ -111,8 +110,7 @@
 
 ## Iframe (Sayfa İçinde Sayfa) İşlemleri
 
-> **NOT**
->
+> **NOT :**
 > Burada açıklamalar üzerinden anlamanız zor olacaktır. Lütfen örnekle beraber aynı anda inceleyiniz.
 
 - `<iframe>` → Bir web sayfasının **içinde başka bir web sayfası** açmak için kullanılır.
@@ -132,7 +130,7 @@
   - `<iframe>` etiketine name verilmelidir.
   - `<a>` etiketinde `target` değeri, iframe’in `name` değeriyle aynı olmalıdır.
 
-> **Not:**
+> **NOT :**
 > Linke tıklandığında sayfa yeni sekmede değil, iframe içinde açılır.
 > `target="_blank"` yerine iframe adı kullanılmış olur.
 
@@ -143,7 +141,7 @@
 - Iframe, SEO açısından sınırlı katkı sağlar; genellikle içerik gömmek için kullanılır.
 - Modern projelerde iframe kullanımı kontrollü ve sınırlı olmalıdır.
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <iframe
@@ -188,7 +186,7 @@
     - Belirli bir origin tanımı gerekir (`*` kullanılamaz).
   - Genellikle **API**, **kimlik doğrulama**, **özel kullanıcı verileri** için kullanılır.
 
-> **Not:**
+> **NOT :**
 > `crossorigin` CORS’u tek başına çözmez; sunucu tarafı ayarları zorunludur.
 
 ---
@@ -232,7 +230,7 @@
 - HTML5 ile **kaldırılmıştır / önerilmez**.
 - Modern HTML’de **kullanılmamalıdır**.
 
-> **Not:**
+> **NOT :**
 > `rev` yerine her zaman `rel` kullanılmalıdır.
 
 ---
