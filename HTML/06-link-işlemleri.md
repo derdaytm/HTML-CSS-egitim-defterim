@@ -239,12 +239,11 @@
 
 ### Kısa Özet
 
-- `crossorigin` → Harici kaynaklarda **CORS davranışını** belirler
-- `rel` → Sayfalar/kaynaklar arasındaki **ilişkiyi** tanımlar
-- `rev` → **Deprecated (kullanılmıyor)**
+- `crossorigin` → Harici kaynaklarda **CORS davranışını** belirler.
+- `rel` → Sayfalar/kaynaklar arasındaki **ilişkiyi** tanımlar.
+- `rev` → **Deprecated (kullanılmıyor)**.
 
-> Modern HTML’de güvenlik, erişilebilirlik ve SEO için  
-> `rel` ve `crossorigin` doğru ve bilinçli kullanılmalıdır.
+> Modern HTML’de güvenlik, erişilebilirlik ve SEO için `rel` ve `crossorigin` doğru ve bilinçli kullanılmalıdır.
 
 ---
 
