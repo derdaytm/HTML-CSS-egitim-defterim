@@ -267,7 +267,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 ```
 
-> **Not :**
+> **NOT :**
 > `src` yerine `href` kullanılır; `src` yazılabilir ama **önerilmez**.
 
 ---
