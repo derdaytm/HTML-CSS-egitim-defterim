@@ -7,7 +7,7 @@
           ```
           <img src="dosya-konumu/dosya-adı.uzantı" alt="Açıklama" title="Resim Başlığı" />
           ```
-> **Not:**
+> **NOT :**
 > - Klasör yolu belirtirken `./` kullanmak, dosyanın mevcut proje içinde olduğunu netleştirir ve daha sağlıklı bir yöntemdir.
 > `../` kullanarak bir üst klasöre çıkabiliriz. <br>
 > - `src` özelliğine fotoğraf URL’i girilebilir, ancak kullanımı **önerilmemektedir**. <br>
@@ -92,7 +92,7 @@
 <img src="image.jpg" width="300" height="200" alt="Örnek görsel" />
 ```
 
->**Not :**
+>**NOT :**
 > Paint, Photoshop veya Figma gibi araçlarla düzenleme yapmak, sağlıklı bir yöntemdir.
 
 ---
