@@ -17,11 +17,12 @@ Sayfa düzeni oluştururken **ana kutuların özellikleri** ile sayfanın geniş
 - **Max-width** → Sayfanın çok geniş ekranlarda aşırı yayılmasını önler.  
 - **Min-height** → İçerik az olsa bile sayfa yüksekliğini korur.  
 
-> Özet: Sayfa tasarımında ana kutuların genişlik ve yüksekliği ile konumlandırma, **margin, max-width ve min-height** özellikleriyle kontrol edilir.
+> **ÖZET :**
+> Sayfa tasarımında ana kutuların genişlik ve yüksekliği ile konumlandırma, **margin, max-width ve min-height** özellikleriyle kontrol edilir.
 
 ---
 
-## Temel Örnekler
+## Temel Örnekler :
 
 1. Örnek
 
