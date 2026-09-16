@@ -232,6 +232,15 @@
 
 ---
 
+>**Not**
+>
+> Çok sayıda resim varsa `loading="lazy"` kullanarak resim sayfa açılır açılmaz değil, kullanıcı resme yaklaşınca yüklenmesi sağlanır. Varsayılan: loading="eager" (resim hemen yüklenir)
+>
+> `decoding="async"` varsayılan ayardır ve resmi arka planda hazırlar resim olmasa bile sayfa gösterilir.
+> `decoding="sync"` sayfayı açmak için resmin yüklenmesini bekler.
+
+---
+
 ### Favicon
 
 - Favicon, tarayıcı sekmesinde görünen **16x16 boyutundaki küçük simge**dir.  
