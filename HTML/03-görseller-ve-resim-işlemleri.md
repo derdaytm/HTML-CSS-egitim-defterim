@@ -21,7 +21,7 @@
   - Erişilebilirlik (accessibility) ve SEO için zorunlu kabul edilir.
 - `title` → Resmin üzerine gelindiğinde görünen açıklama (isteğe bağlı)
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <img src="images/logo.png" alt="Site logosu" title="Ana sayfa logosu" />
@@ -86,7 +86,7 @@
 - CSS ile boyutlandırmada ise birim zorunludur.
 - Eğer sadece 1 tanesini kullanırsak onu baz alarak diğerini otomatik küçültür ve resim kalitesi daha az bozulur.
 
-#### Örnek Kullanım 
+#### Örnek Kullanım :
 
 ```html
 <img src="image.jpg" width="300" height="200" alt="Örnek görsel" />
@@ -113,7 +113,7 @@
 - `<p>` etiketi içine resim ekleyip, `style="float: right"` veya `style="float: left"` ile konumlandırabiliriz.  
 - Ardından `<p>` veya `<span>` içine metin yazarak resmin yanına istenilen metni yerleştirebiliriz.
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <p>
@@ -142,7 +142,7 @@
   - `<figcaption>` resmin üstündeyse yazı üstte, altındaysa yazı altta görüntülenir.  
 - Bu kullanım **semantiktir**, hem erişilebilirlik hem de SEO açısından avantaj sağlar.
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <figure>
@@ -209,7 +209,7 @@
 - `alt` → Erişilebilirlik ve SEO için açıklama.
 - `type` → Formatı belirtmeyi sağlar.
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <picture>
@@ -260,7 +260,7 @@
 - `href` → Favicon dosyasının konumu ve adı.
 - `sizes` → Boyut ayarlamayı sağlar.
 
-#### Örnek Kullanım
+#### Örnek Kullanım :
 
 ```html
 <link rel="icon" href="favicon.ico">
