@@ -16,8 +16,8 @@
 
 ### Yenileme ve HTTP-EQUIV
 - `<meta http-equiv="refresh" content="5">` → Sayfanın **5 saniyede bir yenilenmesini** sağlar.
-- `<meta http-equiv="content-type" content="text/html; charset=UTF-8">` → Eski yöntem; sayfanın karakter kodlamasını belirtir.
 - `<meta http-equiv="default-style" content="varsayılan-stil.css">` → Varsayılan CSS dosyasını belirtir.
+- `<meta http-equiv="content-type" content="text/html; charset=UTF-8">` → Eski yöntem; sayfanın karakter kodlamasını belirtir.
 - `<meta http-equiv="X-UA-Compatible" content="IE=edge">` → Eski Internet Explorer uyumluluğu sağlar.
 
 ### Görünüm ve Mobil Uyumluluk
