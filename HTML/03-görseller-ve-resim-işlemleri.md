@@ -237,6 +237,8 @@
 >
 > `decoding="async"` varsayılan ayardır ve resmi arka planda hazırlar resim olmasa bile sayfa gösterilir.
 > `decoding="sync"` sayfayı açmak için resmin yüklenmesini bekler.
+>
+> `img` tagı içinde kullanılır.
 
 ---
 
