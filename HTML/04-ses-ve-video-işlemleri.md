@@ -203,7 +203,7 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
 
 HTML sayfasına medya veya eklenti tabanlı içerik gömmek için kullanılır.  
 
-> **Not :**
+> **NOT :**
 > Alternatif içerik göstermez; tarayıcı desteklemezse boş alan kalır.
 
 ### Özellikler
@@ -232,7 +232,7 @@ HTML sayfasına medya veya eklenti tabanlı içerik gömmek için kullanılır.
 | Esneklik               | Yüksek                             | Daha basit                      |
 | Kullanım               | PDF, Flash, diğer medya türleri     | Video, ses, eklenti tabanlı içerikler |
 
-> **Not :**  
+> **NOT :**  
 > Günümüz projelerinde video için `<video>`, ses için `<audio>`, PDF için JS tabanlı çözümler veya `<iframe>` kullanmak daha yaygındır.  
 > `<object>` ve `<embed>` genellikle eski veya özel durumlar için tercih edilir.
 
