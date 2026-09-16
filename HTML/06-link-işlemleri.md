@@ -15,7 +15,7 @@
   - `sayfa.html` → Aynı sitedeki başka bir HTML sayfasına gider.
     - Aynı klasördeyse direkt yazılabilir.
     - Farklı klasördeyse yol belirtilmelidir.
-  - `dosya.zip`/`dosya.rar` → Aynı sitedeki dosyaya gider.
+  - `dosya.zip`/`dosya.rar` → Aynı sitedeki dosyaya gider (indirir).
   - `https://site.com` → Başka bir web sitesine yönlendirir.
   - `mailto:mail@example.com` → E-posta bağlantısı oluşturur.
 
