@@ -83,6 +83,7 @@
 - `width` ve `height` HTML attribute’u olarak verilebilir; ancak modern projelerde **CSS ile boyutlandırma** önerilir.
 - HTML attribute'larında birim yazılmaz, px varsayılan olarak kabul edilir.
 - CSS ile boyutlandırmada ise birim zorunludur.
+- Eğer sadece 1 tanesini kullanırsak onu baz alarak diğerini otomatik küçültür ve resim kalitesi daha az bozulur.
 
 #### Örnek Kullanım 
 
