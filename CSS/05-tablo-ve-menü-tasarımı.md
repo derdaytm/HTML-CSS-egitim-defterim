@@ -23,7 +23,7 @@ Tablo ve menü tasarımına başlamadan önce bilmemiz gereken temel mantık:
 Tabloların kenarlıkları bazen **çift çizgi** gibi görünebilir.  
 Bunu önlemek ve **tek çizgi görünümü** elde etmek için `border-collapse` özelliği kullanılır.
 
-### Kullanım
+### Kullanım :
 
 ```css
 table {
@@ -61,7 +61,7 @@ Listeler (`<ul>`, `<ol>`, `<li>`) de tablolar gibi **iki açıdan stil verilebil
 Varsayılan olarak listeler dikey (alt alta) görüntülenir.  
 Eğer **liste öğelerini yatay** yani yan yana göstermek istersek `float: left;` kullanılır.
 
-### Örnek CSS
+### Örnek CSS :
 
 ```css
 ul li {
@@ -76,13 +76,13 @@ ul li {
 Not: Bu yöntemde, liste kapsayıcısının (`<ul>` veya `<ol>`) sonunda **clearfix** uygulanması önerilir.  
 Aksi takdirde, kapsayıcının yüksekliği **float uygulanan öğeler nedeniyle doğru hesaplanmayabilir**.
 
-**Detaylı Açıklama**
+**Detaylı Açıklama :**
 
 - `float: left;` veya `float: right;` kullandığımızda, elemanlar normal akıştan çıkar.  
 - Bu durumda **ebeveyn kapsayıcı** (`<ul>` veya `<ol>`) **yükseklik olarak sıfır gibi davranabilir**, yani kapsayıcı sadece içindeki "normal akışta olan" öğeleri görür.  
 - **Çözüm:** Clearfix uygulamak. Böylece kapsayıcı, içindeki floated elemanların yüksekliğini de kapsar.
 
-#### Clearfix Örneği:
+#### Clearfix Örneği :
 HTML Dosyası :
 ```html
 <ul class="clearfix">
@@ -125,7 +125,7 @@ Listelerde varsayılan olarak `list-style-type` kullanılarak **madde işaretler
 | `upper-roman` | Büyük Roma rakamı (I, II, III…) |
 | `url("dosyakonumu")` | Madde yerine resim görüntülenir |
 
-### Örnek Kullanım
+### Örnek Kullanım :
 
 ```css
 ul.ornek1 {
