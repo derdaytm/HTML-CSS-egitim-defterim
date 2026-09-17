@@ -179,7 +179,8 @@
 - title → Açıklama gösterir. (*imleç üstüne geldiğinde*)
 - Style =”width : xpx” → Metin kutusunun uzunluğunu belirlemeyi sağlar.
 - novalidate → Tarayıcının varsayılan veri doğrulama ve hata uyarısı mekanizmasını devre dışı bırakır.
-
+- accept-charset="UTF-8" → Karakter kümesini UTF-8 yapar. (Günümüzde kullanılmamaktadır)
+  
 ---
 
 ### `<textarea>`
