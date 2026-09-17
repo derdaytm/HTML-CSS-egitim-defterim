@@ -17,7 +17,7 @@
 - `action="x"` → Form verilerinin gönderileceği sayfayı belirtir.
   - `mail.php` → Veriler sunucu tarafına gönderilir ve backend tarafında işlenir.
   - `mailto:mail@example.com` → Veriler kullanıcının e-posta uygulaması ile mail olarak gönderilir.
-    - Bu kullanımda `enctype="text/plain"` eklenmelidir. En çok kullanılan `enctype` tipleri :
+    - Bu kullanımda `enctype="text/plain"` eklenmelidir.
 - `method="x"` → Verilerin gönderilme yöntemini belirler.
   - `get` → Veriler URL üzerinden gider. (gizli değildir, (512kb) sınırlıdır).
   - `post` → Veriler gizli gider, boyut sınırı yoktur. (varsayılan)
