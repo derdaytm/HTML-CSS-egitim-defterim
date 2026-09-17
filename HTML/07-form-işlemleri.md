@@ -162,6 +162,7 @@
 ### `<input>` Attribute'ları
 
 - name → Metin kutusuna isim vermeyi sağlar.
+- id → Metin kutusuna benzersiz isim vermeyi sağlar.
 - autofocus → Sayfa açılınca imleç otomatik gelir.
 - autocomplete="on/off" → Önceki verileri önerir. (*Varsayılan olarak açık gelir*)
 - placeholder="x" → Gölge açıklama metni. Valueden farkı gölge olarak gözükür.
