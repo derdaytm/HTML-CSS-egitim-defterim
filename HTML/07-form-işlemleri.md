@@ -178,6 +178,7 @@
 - pattern → Giriş kuralı tanımlar. (*regex kuralları uygulanacaktır*) (*Sık kullanılan regexlere sayfa sonunda yer verilmiştir*)
 - title → Açıklama gösterir. (*imleç üstüne geldiğinde*)
 - Style =”width : xpx” → Metin kutusunun uzunluğunu belirlemeyi sağlar.
+- novalidate → Tarayıcının varsayılan veri doğrulama ve hata uyarısı mekanizmasını devre dışı bırakır.
 
 ---
 
