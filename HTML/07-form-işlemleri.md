@@ -30,7 +30,7 @@
 
 - Form verilerinin hangi formatta gönderileceğini belirler.
 - `application/x-www-form-urlencoded` → Varsayılan gönderim türü. Sadece metin içeren formlar için uygundur.
-- `multipart/form-data` → Dosya yükleme yapılan formlar için ZORUNLUDUR. `multipart/form-data` kullanılan her formda mutlaka `type="file"` eklenmelidir.
+- `multipart/form-data` → Dosya yükleme yapılan formlar için ZORUNLUDUR. `type="file"` kullanılan her formda mutlaka `multipart/form-data` eklenmelidir.
 - `text/plain` → Mailto ile kullanımda tercih edilir. Nadiren tercih edilir.
 
 ---
