@@ -8,6 +8,7 @@
 > Bu bölüm tek bir kapsamlı örnek üzerinden anlatılmıştır.  
 > Form konusu oldukça geniştir ve yalnızca okuyarak değil, **örnekler üzerinde birebir inceleme ve deneme yapılarak** anlaşılır.  
 > Bu nedenle form yapıları, **örnekle birlikte incelendiğinde** ve farklı senaryolar uygulanarak çalışıldığında kalıcı şekilde öğrenilir.
+> > Eski form düzenleme yöntemi olan Tablo (`<table>`) kullanımı modern tasarımlarda tercih edilmez; bunun yerine sayfa düzeni CSS (Flexbox / Grid) ile sağlanmalıdır. Ancak istenirse tablo ile düzenleme de yapılabilmektedir.
 
 ---
 
