@@ -135,7 +135,7 @@
 
 ### `button` türleri
 
-`<input type="button">` özelliğiyle birlikte kullanılır.
+`<button type="x">` özelliğiyle birlikte kullanılır. (Burada button yerine input yazılabilir)
 
 - submit → Formu gönderir.
 - reset → Formu temizler.
