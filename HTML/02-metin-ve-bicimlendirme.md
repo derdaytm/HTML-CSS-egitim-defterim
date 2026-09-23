@@ -85,23 +85,23 @@ kelimesi uygun yerden bölünebilir.
 #### Örnek Kullanım :
 
 ```html
-<p>
-  <b>Kalın metin</b><br>
-  <strong>Önemli metin</strong><br>
-  <i>Eğik metin</i><br>
-  <em>Vurgulu eğik metin</em><br>
-  <u>Altı çizili metin</u><br>
-  <ins>Sonradan eklenen metin</ins><br>
-  <del>Silinmiş metin</del><br>
-  <mark>Vurgulanan metin</mark><br>
-  <small>Küçük metin</small>
-  <hr />
-</p>
+<b>Kalın metin</b><br>
+<strong>Önemli metin</strong><br>
+<i>Eğik metin</i><br>
+<em>Vurgulu eğik metin</em><br>
+<u>Altı çizili metin</u><br>
+<ins>Sonradan eklenen metin</ins><br>
+<del>Silinmiş metin</del><br>
+<s>Silinmiş metin</s><br>
+<strike>Silinmiş metin</strike> <br>
+<mark>Vurgulanan metin</mark><br>
+<small>Küçük metin</small>
+<hr />
 ```
 
 **Tarayıcı Çıktısı:**
 
-<img width="777" height="208" alt="image" src="https://github.com/user-attachments/assets/b136cabb-581d-4bcf-833d-7437b6449d0b" />
+<img width="397" height="217" alt="image" src="https://github.com/user-attachments/assets/635b68c0-d627-4097-8fd0-42602024d392" />
 
 ---
 
