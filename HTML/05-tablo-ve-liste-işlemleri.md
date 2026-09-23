@@ -137,6 +137,9 @@
 > `<ul>` için `list-style-type` kullanarak CSS ile de değiştirilebilir; özel marker kullanımı CSS ile daha esnektir.
 - `<li>` → Liste elemanlarını gösterir.
   - `value="x"` → Tek tek `<ol>` elemanının numarasını değiştirmek için kullanılır.
+ 
+> **NOT :**
+> İç içe liste yapısı da kullanılabilir.
 
 ### Örnek Kullanım :
 ```html
@@ -163,6 +166,21 @@
 <ul type="none">
   <li>Liste işareti yok</li>
   <li>Bir diğer madde</li>
+</ul>
+
+<!-- İç İçe Liste Örneği -->
+<ul>
+  <li>ISTANBUL'UN ÖNEMLİ İLÇELERİ</li>
+    <ul>
+      <li>Fatih</li>
+      <li>Bakırköy</li>
+      <li>Kadıköy</li>
+    </ul>
+  <li>ANKARA'NIN ÖNEMLİ İLÇELERİ</li>
+    <ul>
+      <li>Çankaya</li>
+      <li>Yenimahalle</li>
+    </ul>
 </ul>
 ```
 
