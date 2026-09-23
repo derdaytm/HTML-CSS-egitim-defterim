@@ -101,6 +101,8 @@ kelimesi uygun yerden bölünebilir.
 
 **Tarayıcı Çıktısı:**
 
+
+<img width="773" height="264" alt="image" src="https://github.com/user-attachments/assets/267ad53a-4901-42ae-821c-4e7195d3cbb5" />
 <img width="468" height="218" alt="image" src="https://github.com/user-attachments/assets/28673e58-e326-43f8-a6d9-59515c0933a5" />
 
 ---
