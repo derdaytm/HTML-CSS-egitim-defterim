@@ -90,7 +90,9 @@
 - `<html lang="tr">` → Sayfanın başlangıcı; dil belirtmek için `lang` kullanılır; sonunda `</html>` ile kapatılır.  
   - `<!DOCTYPE html>` → Sayfanın HTML5 ile yazıldığını belirtir; `<html>`’den önce gelir.  
 - `<head>` → Sayfa başlığı, meta bilgiler ve script/link gibi başlık bilgilerini içerir.  
-- `<body>` → Ziyaretçiye gösterilen içerik burada yer alır.  
+- `<body>` → Ziyaretçiye gösterilen içerik burada yer alır.
+ - `bgcolor = "red"` → Arka plan rengini kırmızı yapar. 
+ - `text = "#000051"` → Yazı rengini siyah yapar.
 - `<title>` → Tarayıcı sekmesinde görünen sayfa başlığını belirtir.  
 - `tabindex="1"` → Elementin tab sırasını belirler; sayfa içinde tab ile gezinmeyi kontrol eder.  
 - `accesskey="h"` → Klavye kısayolu atar; örneğin `h` tuşu ile element seçilebilir.  
