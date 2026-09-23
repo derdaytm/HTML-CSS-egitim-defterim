@@ -110,9 +110,6 @@
 
 ### Resim ve Metin Yerleşimi
 
-> **NOT :**
-> Eskiden `align = "left/right/center/top/bottom"` ile resmin sayfa üzerindeki konumunun belirlenmesi yapılırdı ancak artık önerilmemektedir.
-
 - `<p>` etiketi içine resim ekleyip, `style="float: right"` veya `style="float: left"` ile konumlandırabiliriz.  
 - Ardından `<p>` veya `<span>` içine metin yazarak resmin yanına istenilen metni yerleştirebiliriz.
 
@@ -272,6 +269,13 @@
 
 > **NOT :**
 > `src` yerine `href` kullanılır; `src` yazılabilir ama **önerilmez**.
+
+---
+
+### Eskiden Kullanılan Özellikler
+
+- `align = "left/right/center/top/bottom"` → Resmin sayfa üzerindeki konumunun belirlenirdi ancak artık önerilmemektedir.
+- `border = "5"` → Görselin çerçeve kalınlığı ayarlanırdı ancak artık önerilmemektedir.
 
 ---
 ### 📚 Konu Akışı
