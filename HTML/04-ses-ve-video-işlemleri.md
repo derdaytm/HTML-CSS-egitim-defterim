@@ -31,7 +31,8 @@ Videoları HTML sayfasına eklemek için kullanılır.
 - `controls` → Oynatma, durdurma, ses aç/kapat düğmelerini gösterir.
 - `autoplay` → Sayfa açıldığında videonun otomatik oynatılmasını sağlar.  
 - `loop` → Videonun sürekli oynatılmasını sağlar.  
-- `muted` → Videonun sesi kısık başlar. 
+- `muted` → Videonun sesi kısık başlar.
+- `type` → Video dosyasının türünü belirtir. (örn. `viedo/mp4`, `video/webm`)
 - `preload` → Tarayıcı sayfa yüklenirken videonun ne kadarını önceden yükleyeceğini belirler:
   - `none` → indirmez.  
   - `metadata` → sadece meta veriyi indirir.  
@@ -127,18 +128,18 @@ Ses dosyalarını HTML sayfasına eklemek için kullanılır.
 
 #### Gelişmiş Video Özellikleri
 - `crossorigin = "anonymous"`
-  - Eğer videoyu **CDN’den veya farklı bir kaynaktan** çekiyorsanız, `crossorigin` özelliği gerekli olabilir.
-  - Amaç: Tarayıcıların **CORS (Cross-Origin Resource Sharing)** politikaları nedeniyle video verisine erişim ve işlem yapılabilmesini sağlamak.
+  - Eğer sesi **CDN’den veya farklı bir kaynaktan** çekiyorsanız, `crossorigin` özelliği gerekli olabilir.
+  - Amaç: Tarayıcıların **CORS (Cross-Origin Resource Sharing)** politikaları nedeniyle ses verisine erişim ve işlem yapılabilmesini sağlamak.
 
 - `playsinline`
-  - Mobil cihazlarda videonun **tam ekran yerine sayfa içinde** oynatılmasını sağlar.
+  - Mobil cihazlarda sesin **tam ekran yerine sayfa içinde** oynatılmasını sağlar.
   - Önerilen kullanım, özellikle **iOS Safari** gibi tarayıcılarda otomatik oynatma ve kullanıcı deneyimi için önemlidir.
 
 #### Örnek Kullanım :
 
 ```html
 <audio 
-    src="audio.mp3" 
+    src="audio.mp3"  // Kullanılması önerilmez
     controls 
     autoplay 
     loop 
