@@ -40,6 +40,7 @@ Videoları HTML sayfasına eklemek için kullanılır.
 - `width` → Videonun genişliğini belirler. (piksel cinsinden)  
 - `height` → Videonun yüksekliğini belirler. (piksel cinsinden)
 - `track` → Video için altyazı ekler.
+  - `src` → Altyazı metin yolunu belirtir.
   - `srclang` → Altyazı dilini belirtir.
   - `label` → Kullanıcıya gösterilecek altyazı adını belirtir.
 - `kind` özniteliği, `<track>` ile eklenen içeriğin türünü belirtir. Desteklenen değerler ve açıklamaları:
