@@ -14,7 +14,9 @@
 - `<td>` → Tablo hücresi oluşturur.  
   - `headers` → Bu hücrenin hangi `<th>` ile ilişkili olduğunu belirtir. (karmaşık tablolar için).  
 - `<th>` → Tablo başlık hücresi oluşturur.  
-  - `scope` → Başlık hücresinin kapsamını belirtir. (`col`, `row`).  
+  - `scope` → Başlık hücresinin kapsamını belirtir. (`col`, `row`).
+  - `align = "left/right/center"` → Hücre verisinin yatay konumunu belirler. (Günümüzde kullanılmamaktadır)
+  - `valign = "top/middle/bottom"` → Hücre verisinin düşey konumunu belirler. (Günümüzde kullanılmamaktadır)
 - `<thead>` → Tablo başlık bölümünü tanımlar.  
 - `<tbody>` → Tablo veri bölümünü tanımlar.  
 - `<tfoot>` → Tablo alt bölümünü tanımlar.  
