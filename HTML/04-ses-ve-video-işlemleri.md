@@ -68,7 +68,7 @@ Videoları HTML sayfasına eklemek için kullanılır.
 
 ```html
 <video 
-    src="video.mp4"
+    src="video.mp4" // Kullanılması önerilmez
     width="640" 
     height="360" 
     controls 
