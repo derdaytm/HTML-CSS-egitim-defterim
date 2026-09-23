@@ -101,7 +101,7 @@ kelimesi uygun yerden bölünebilir.
 
 **Tarayıcı Çıktısı:**
 
-<img width="397" height="217" alt="image" src="https://github.com/user-attachments/assets/635b68c0-d627-4097-8fd0-42602024d392" />
+<img width="397" height="217" alt="image" src="https://github.com/user-attachments/assets/d78a9541-b9a4-4a5f-a926-ce498f88df51" />
 
 ---
 
