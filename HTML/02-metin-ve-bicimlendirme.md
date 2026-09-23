@@ -103,6 +103,7 @@ kelimesi uygun yerden bölünebilir.
 
 <img width="568" height="217" alt="image" src="https://github.com/user-attachments/assets/30784060-6a53-4c1c-b618-a8fc8ff9cdec" />
 
+
 ---
 
 ### Alıntılar ve Kaynaklar
