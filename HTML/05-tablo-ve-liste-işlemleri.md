@@ -17,6 +17,7 @@
   - `scope` → Başlık hücresinin kapsamını belirtir. (`col`, `row`).
   - `align = "left/right/center"` → Hücre verisinin yatay konumunu belirler. (Günümüzde kullanılmamaktadır)
   - `valign = "top/middle/bottom"` → Hücre verisinin düşey konumunu belirler. (Günümüzde kullanılmamaktadır)
+  - `nowrap` → Metin ne kadar uzun olursa olsun alt satıra geçmez. (Günümüzde kullanılmamaktadır)
 - `<thead>` → Tablo başlık bölümünü tanımlar.  
 - `<tbody>` → Tablo veri bölümünü tanımlar.  
 - `<tfoot>` → Tablo alt bölümünü tanımlar.  
